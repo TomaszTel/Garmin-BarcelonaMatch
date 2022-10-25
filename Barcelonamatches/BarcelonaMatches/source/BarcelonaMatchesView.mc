@@ -6,7 +6,7 @@ hidden var _message;
     function initialize(message) {
         View.initialize();
         _message = message;
-        System.println(message);
+       // System.println(message);
     }
 
     // Load your resources here

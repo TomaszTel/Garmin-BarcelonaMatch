@@ -7,15 +7,16 @@ class BarcelonaMatchesApp extends Application.AppBase {
 var name ;
 var load;
 
-const URL = "https://api.football-data.org/v4/teams/86/matches?status=SCHEDULED&limit=1";
+const URL = "https://api.football-data.org/v2/teams/86/matches?status=SCHEDULED&limit=1&lastUpdated";
     function initialize() {
         AppBase.initialize();
+               
     }
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
-
-                  makeRequest();
+ 
+        
     }
 
 
@@ -26,14 +27,21 @@ const URL = "https://api.football-data.org/v4/teams/86/matches?status=SCHEDULED&
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        
+        makeRequest();  
         return [ new BarcelonaMatchesView("Starting " + URL) ] as Array<Views or InputDelegates>;
     }
      function onReceive(responseCode, data) {
+      var Matches = data["matches"];
+      
+
+
+              System.println(data["matches"]);    
+
         if (responseCode == 200)
         {
-            onJsonData(data);
-       WatchUi.switchToView(new BarcelonaMatchesView("Name: "+ name[0].toString), null, WatchUi.SLIDE_IMMEDIATE);
+           // onJsonData(data);
+          //  System.println("responseCode");
+       WatchUi.switchToView(new BarcelonaMatchesView("Name: "+ name.toString), null, WatchUi.SLIDE_IMMEDIATE);
        }
        else
        {
@@ -61,10 +69,11 @@ function onJsonData( data) {
 // the outer element is an array, iterate over the elements.
 for (var i = 0; i < data.size(); ++i) {
 var entry = data;
-
+ //System.println(data.get("matches"));
+  
 // each entry in the array is a dictionary. lookup fields by name.
- name.put(entry.get("homeTeam")); // or entry.get("Name")
- load.put(entry.get("awayTeam")); // ...
+ //name.put(entry.get("homeTeam")); // or entry.get("Name")
+// load.put(entry.get("awayTeam")); // ...
 
 }
 }
