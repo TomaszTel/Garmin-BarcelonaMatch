@@ -29,7 +29,7 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
     function getInitialView() as Array<Views or InputDelegates>? {
        
         
-        return [ new BarcelonaMatchesView("Starting ",URL) ] as Array<Views or InputDelegates>;
+        return [ new BarcelonaMatchesView("Starting ","Please wait","") ] as Array<Views or InputDelegates>;
     }
      function onReceive(responseCode, data) {
      var DataString = data.toString();
@@ -42,7 +42,10 @@ var indexFromAway = DataString.find("homeTeam=>");
 var indexToAway = DataString.find("group=>");
 var TrimmerAway = DataString.substring(indexFromAway + 93, indexToAway - 11);
 
-    
+    var indexDate = DataString.find("utcDate=>");
+var indexDateTo = DataString.find("season=>");
+var TrimmerDate= DataString.substring(indexDate +9 , indexDateTo );
+
 System.println(TrimmerAway);
 System.println("!----------------!");
 
@@ -55,11 +58,11 @@ System.println("!----------------!");
         if (responseCode == 200)
         {
           
-       WatchUi.switchToView(new BarcelonaMatchesView(TrimmerHome,TrimmerAway), null, WatchUi.SLIDE_IMMEDIATE);
+       WatchUi.switchToView(new BarcelonaMatchesView(TrimmerHome,TrimmerAway,TrimmerDate), null, WatchUi.SLIDE_IMMEDIATE);
        }
        else
        {
-               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode), null, WatchUi.SLIDE_IMMEDIATE);
+               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode,""),"", null, WatchUi.SLIDE_IMMEDIATE);
 
        }
    }

@@ -4,12 +4,12 @@ import Toybox.WatchUi;
 class BarcelonaMatchesView extends WatchUi.View {
 hidden var _Home;
 hidden var _Away;
-
-    function initialize(home,away) {
+hidden var _Date;
+    function initialize(home,away,date) {
         View.initialize();
         _Home = home;
                 _Away = away;
-
+_Date = date;
        
     }
 
@@ -18,7 +18,7 @@ hidden var _Away;
         setLayout(Rez.Layouts.MainLayout(dc));
                 View.findDrawableById("messageHome").setText(_Home);
                                 View.findDrawableById("messageAway").setText(_Away);
-
+View.findDrawableById("Date").setText(_Date);
 
     }
 

@@ -1,5 +1,7 @@
 <layout id="MainLayout">
-  <label id="messageHome" x="10" y="74" font="Gfx.FONT_SMALL"  />
-    <label id="messageAway" x="26" y="159" font="Gfx.FONT_SMALL"  />
+  <label id="messageHome" x="60" y="50" font="Gfx.FONT_SMALL"  />
+  <label id="Date" x="20" y="100" font="Gfx.FONT_SMALL"  />
+    <label id="messageAway" x="60" y="159" font="Gfx.FONT_SMALL"  />
+
 
 </layout>
