@@ -1,3 +1,5 @@
 <layout id="MainLayout">
-  <label id="message" x="center" y="center" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+  <label id="messageHome" x="10" y="74" font="Gfx.FONT_SMALL"  />
+    <label id="messageAway" x="26" y="159" font="Gfx.FONT_SMALL"  />
+
 </layout>

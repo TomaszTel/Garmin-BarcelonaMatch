@@ -2,17 +2,23 @@ import Toybox.Graphics;
 import Toybox.WatchUi;
 
 class BarcelonaMatchesView extends WatchUi.View {
-hidden var _message;
-    function initialize(message) {
+hidden var _Home;
+hidden var _Away;
+
+    function initialize(home,away) {
         View.initialize();
-        _message = message;
-       // System.println(message);
+        _Home = home;
+                _Away = away;
+
+       
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
-                View.findDrawableById("message").setText(_message);
+                View.findDrawableById("messageHome").setText(_Home);
+                                View.findDrawableById("messageAway").setText(_Away);
+
 
     }
 
