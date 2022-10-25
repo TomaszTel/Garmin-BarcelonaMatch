@@ -34,16 +34,13 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
      function onReceive(responseCode, data) {
      var DataString = data.toString();
      
-var indexFromHome = DataString.find("homeTeam");
-var indexToHome = DataString.find("shortName");
-var mySubStringHome = DataString.substring(indexFromHome, indexToHome);
+var indexFromHome = DataString.find("awayTeam=>") ;
+var indexFromHome1 = DataString.find("tla=>") ;
+    var TrimmerHome = DataString.substring(indexFromHome + 69, indexFromHome1 - 2);
 
-    var TrimmerHome = mySubStringHome.substring(27, mySubStringHome.length() - 3);
-
-var indexFromAway = DataString.find("awayTeam");
-var indexToAway = DataString.find("score");
-var mySubStringAway = DataString.substring(indexFromAway, indexToAway);
-var TrimmerAway=  mySubStringAway.substring(26, mySubStringAway.length() - 86);
+var indexFromAway = DataString.find("homeTeam=>");
+var indexToAway = DataString.find("group=>");
+var TrimmerAway = DataString.substring(indexFromAway + 93, indexToAway - 11);
 
     
 System.println(TrimmerAway);
@@ -76,7 +73,7 @@ System.println("!----------------!");
        };
        var responseCallback = method(:onReceive);
 
-       Communications.makeWebRequest(url, params, options, method(:onReceive));
+       Communications.makeWebRequest(url, null, options, method(:onReceive));
   }
 
 
