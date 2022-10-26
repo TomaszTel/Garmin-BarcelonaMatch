@@ -2,10 +2,11 @@ import Toybox.Application;
 import Toybox.Lang ;
 import Toybox.WatchUi;
 
-
+module Example {
+    var roomId = -1;
+}
 class BarcelonaMatchesApp extends Application.AppBase {
-var name ;
-var load;
+
 
 const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1";
     function initialize() {
@@ -16,21 +17,9 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
        makeRequest(); 
-        
+        onMenu();
     }
 
-function onMenu() {
-  
-
-          var menu = new WatchUi.Menu();
-        var delegate;
-        menu.setTitle("My Menu");
-        menu.addItem("Item One", :one);
-        menu.addItem("Item Two", :two);
-        delegate = new MyMenuDelegate(); // a WatchUi.MenuInputDelegate
-        WatchUi.pushView(menu, delegate, WatchUi.SLIDE_IMMEDIATE);
-        return true;
-    }
 
     // onStop() is called when your application is exiting
     function onStop(state as Dictionary?) as Void {
@@ -38,8 +27,6 @@ function onMenu() {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-       
-        
         return [ new BarcelonaMatchesView("Starting ",URL) ] as Array<Views or InputDelegates>;
     }
      function onReceive(responseCode, data) {
@@ -89,7 +76,16 @@ System.println("!----------------!");
 
        Communications.makeWebRequest(url, params, options, method(:onReceive));
   }
-
+ function onMenu() {
+        var menu = new WatchUi.Menu();
+        var delegate;
+        menu.setTitle("My Menu");
+        menu.addItem("Item One", :one);
+        menu.addItem("Item Two", :two);
+        delegate = new MyMenuInputDelegate(); // a WatchUi.MenuInputDelegate
+        WatchUi.pushView(menu, delegate, WatchUi.SLIDE_IMMEDIATE);
+        return true;
+    }
 
 
 }

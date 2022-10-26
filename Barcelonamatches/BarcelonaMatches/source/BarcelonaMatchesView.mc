@@ -14,6 +14,7 @@ hidden var _Away;
     }
    
 
+
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
@@ -43,17 +44,18 @@ hidden var _Away;
     function onHide() as Void {
     }
 
+   
 }
-class MyMenuDelegate extends WatchUi.MenuInputDelegate {
-      function initialize() {
+ class MyMenuInputDelegate extends WatchUi.MenuInputDelegate {
+    function initialize() {
         MenuInputDelegate.initialize();
     }
 
     function onMenuItem(item) {
-        if ( item == :item_1 ) {
-            // Do something here
-        } else if ( item == :item_2 ) {
-            // Do something else here
+        if (item == :item_1) {
+            System.println("Item 1");
+        } else if (item == :item_2) {
+            System.println("Item 2");
         }
     }
 }

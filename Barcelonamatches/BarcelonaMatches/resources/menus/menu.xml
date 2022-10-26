@@ -1,0 +1,4 @@
+<menu id="ExampleMenu">
+    <menu-item id="room_1" label="Item 1" />
+    <menu-item id="room_2" label="Item 2" />
+</menu>
