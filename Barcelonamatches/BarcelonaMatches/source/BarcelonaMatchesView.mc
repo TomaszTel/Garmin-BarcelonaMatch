@@ -1,6 +1,6 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
-
+(:glance)
 class BarcelonaMatchesView extends WatchUi.View {
 hidden var _Home;
 hidden var _Away;
@@ -18,9 +18,14 @@ _Date = date;
         setLayout(Rez.Layouts.MainLayout(dc));
                 View.findDrawableById("messageHome").setText(_Home);
                                 View.findDrawableById("messageAway").setText(_Away);
-View.findDrawableById("Date").setText(_Date);
+                                    View.findDrawableById("Date").setText(_Date);
+
     
     }
+    
+    function getGlanceView() {
+     return [ new GlanceView() ];
+   }
 
     
     // Called when this View is brought to the foreground. Restore
