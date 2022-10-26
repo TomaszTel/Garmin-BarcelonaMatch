@@ -10,13 +10,13 @@ var load;
 const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1";
     function initialize() {
         AppBase.initialize();
-               
+            
     }
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
        makeRequest(); 
-
+        new Keys();
     }
 
 

@@ -13,4 +13,5 @@ class MyMenuDelegate extends WatchUi.MenuInputDelegate {
             System.println("Item 2");
         }
     }
+
 }

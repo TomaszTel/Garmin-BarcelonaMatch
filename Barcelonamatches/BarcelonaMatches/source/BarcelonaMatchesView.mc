@@ -19,13 +19,10 @@ _Date = date;
                 View.findDrawableById("messageHome").setText(_Home);
                                 View.findDrawableById("messageAway").setText(_Away);
 View.findDrawableById("Date").setText(_Date);
-
+    
     }
 
-    function onNextPage() {
-            WatchUi.pushView( new Rez.Menus.MainMenu(), new MyMenuDelegate(), WatchUi.SLIDE_UP );
-
-    }
+    
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
@@ -33,6 +30,11 @@ View.findDrawableById("Date").setText(_Date);
      
     }
 
+ function onKey(keyEvent) {
+            WatchUi.pushView( new Rez.Menus.MainMenu(), new MyMenuDelegate(), WatchUi.SLIDE_UP );
+           System.println("KEY!!!!");
+        return true;
+    }
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
