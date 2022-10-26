@@ -22,6 +22,10 @@ View.findDrawableById("Date").setText(_Date);
 
     }
 
+    function onNextPage() {
+            WatchUi.pushView( new Rez.Menus.MainMenu(), new MyMenuDelegate(), WatchUi.SLIDE_UP );
+
+    }
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
@@ -43,3 +47,4 @@ View.findDrawableById("Date").setText(_Date);
     }
 
 }
+

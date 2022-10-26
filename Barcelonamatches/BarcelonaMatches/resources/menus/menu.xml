@@ -1,0 +1,4 @@
+<menu id="MainMenu">
+    <menu-item id="item_1" label="Generic 1" />
+    <menu-item id="item_1" label="Generic 2" />
+</menu>

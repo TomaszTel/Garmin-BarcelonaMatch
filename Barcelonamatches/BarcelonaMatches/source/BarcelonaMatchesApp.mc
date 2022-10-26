@@ -16,7 +16,7 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
        makeRequest(); 
-        
+
     }
 
 
@@ -28,7 +28,7 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
        
-        
+
         return [ new BarcelonaMatchesView("Starting ","Please wait","") ] as Array<Views or InputDelegates>;
     }
      function onReceive(responseCode, data) {
@@ -79,6 +79,5 @@ System.println("!----------------!");
        Communications.makeWebRequest(url, null, options, method(:onReceive));
   }
 
-
-
+   
 }
