@@ -44,7 +44,7 @@ var TrimmerAway = DataString.substring(indexFromAway + 93, indexToAway - 11);
 
     var indexDate = DataString.find("utcDate=>");
 var indexDateTo = DataString.find("season=>");
-var TrimmerDate= DataString.substring(indexDate +9 , indexDateTo );
+var TrimmerDate= DataString.substring(indexDate +9 , indexDateTo - 12 );
 
 System.println(TrimmerAway);
 System.println("!----------------!");
