@@ -12,6 +12,7 @@ hidden var _Away;
 
        
     }
+   
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
@@ -42,4 +43,17 @@ hidden var _Away;
     function onHide() as Void {
     }
 
+}
+class MyMenuDelegate extends WatchUi.MenuInputDelegate {
+      function initialize() {
+        MenuInputDelegate.initialize();
+    }
+
+    function onMenuItem(item) {
+        if ( item == :item_1 ) {
+            // Do something here
+        } else if ( item == :item_2 ) {
+            // Do something else here
+        }
+    }
 }

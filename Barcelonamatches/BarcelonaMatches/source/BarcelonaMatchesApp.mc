@@ -19,7 +19,18 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
         
     }
 
+function onMenu() {
+  
 
+          var menu = new WatchUi.Menu();
+        var delegate;
+        menu.setTitle("My Menu");
+        menu.addItem("Item One", :one);
+        menu.addItem("Item Two", :two);
+        delegate = new MyMenuDelegate(); // a WatchUi.MenuInputDelegate
+        WatchUi.pushView(menu, delegate, WatchUi.SLIDE_IMMEDIATE);
+        return true;
+    }
 
     // onStop() is called when your application is exiting
     function onStop(state as Dictionary?) as Void {
