@@ -26,19 +26,21 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
 var indexFromHome = DataString.find("awayTeam=>") ;
 var indexFromHome1 = DataString.find("tla=>") ;
 var TrimmerHome = DataString.substring(indexFromHome + 69, indexFromHome1 - 2);
+var ReplaceFunctionHome = stringReplace(TrimmerHome,">","");
 
 var indexFromAway = DataString.find("homeTeam=>");
 var indexToAway = DataString.find("group=>");
 var TrimmerAway = DataString.substring(indexFromAway + 93, indexToAway - 11);
+var ReplaceFunctionAway = stringReplace(TrimmerAway,"e=>","");
 
 var indexDate = DataString.find("utcDate=>");
 var indexDateTo = DataString.find("season=>");
 var TrimmerDate= DataString.substring(indexDate +9 , indexDateTo - 12 );
 
-System.println(TrimmerAway);
+System.println(ReplaceFunctionAway);
 System.println("!----------------!");
 
-    System.println(TrimmerHome);
+    System.println(ReplaceFunctionHome);
     System.println("!----------------!");
 
 System.println(DataString);
@@ -47,7 +49,7 @@ System.println("!----------------!");
         if (responseCode == 200)
         {
           
-               WatchUi.switchToView(new BarcelonaMatchesView(TrimmerHome,TrimmerAway,TrimmerDate), null, WatchUi.SLIDE_IMMEDIATE);
+               WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome,ReplaceFunctionAway,TrimmerDate), null, WatchUi.SLIDE_IMMEDIATE);
        }
        else
        {
@@ -55,6 +57,28 @@ System.println("!----------------!");
 
        }
    }
+   function stringReplace(str, oldString, newString)
+{
+var result = str;
+
+while (true)
+{
+var index = result.find(oldString);
+
+if (index != null)
+{
+var index2 = index+oldString.length();
+result = result.substring(0, index) + newString + result.substring(index2, result.length());
+}
+else
+{
+return result;
+}
+}
+
+return null;
+}
+
 
 }
  
