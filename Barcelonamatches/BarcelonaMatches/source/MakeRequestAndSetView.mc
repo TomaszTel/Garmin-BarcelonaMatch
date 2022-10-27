@@ -5,12 +5,13 @@
 
 const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1";
 
+ var ParsingStringClass = new FindAndSubstringClass();
+                
+
   function makeRequest() {
        var url = URL;
-       var params = null;
        var options = {
          :method => Communications.HTTP_REQUEST_METHOD_GET,
-         :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN,
             :headers => {"X-Auth-Token" => "d241fae71038458d9815e08ec3f62937"}
        };
        var responseCallback = method(:onReceive);
@@ -23,25 +24,19 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
   function onReceive(responseCode, data) {
      var DataString = data.toString();
      
-var indexFromHome = DataString.find("awayTeam=>") ;
-var indexFromHome1 = DataString.find("tla=>") ;
-var TrimmerHome = DataString.substring(indexFromHome + 69, indexFromHome1 - 2);
-var ReplaceFunctionHome = stringReplace(TrimmerHome,">","");
 
-var indexFromAway = DataString.find("homeTeam=>");
-var indexToAway = DataString.find("group=>");
-var TrimmerAway = DataString.substring(indexFromAway + 93, indexToAway - 11);
-var ReplaceFunctionAway = stringReplace(TrimmerAway,"e=>","");
+var TrimmerHome = ParsingStringClass.FindAndSubstring(DataString,"awayTeam=>","tla=>",69,2);
+var ReplaceFunctionHome = ParsingStringClass.stringReplace(TrimmerHome,">","");
+var TrimmerAway = ParsingStringClass.FindAndSubstring(DataString,"homeTeam=>","group=>",93,11);
+var ReplaceFunctionAway = ParsingStringClass.stringReplace(TrimmerAway,"e=>","");
+var TrimmerDate = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",9,12);
 
-var indexDate = DataString.find("utcDate=>");
-var indexDateTo = DataString.find("season=>");
-var TrimmerDate= DataString.substring(indexDate +9 , indexDateTo - 12 );
 
 System.println(ReplaceFunctionAway);
 System.println("!----------------!");
 
-    System.println(ReplaceFunctionHome);
-    System.println("!----------------!");
+System.println(ReplaceFunctionHome);
+System.println("!----------------!");
 
 System.println(DataString);
 System.println("!----------------!");
@@ -57,27 +52,7 @@ System.println("!----------------!");
 
        }
    }
-   function stringReplace(str, oldString, newString)
-{
-var result = str;
-
-while (true)
-{
-var index = result.find(oldString);
-
-if (index != null)
-{
-var index2 = index+oldString.length();
-result = result.substring(0, index) + newString + result.substring(index2, result.length());
-}
-else
-{
-return result;
-}
-}
-
-return null;
-}
+   
 
 
 }

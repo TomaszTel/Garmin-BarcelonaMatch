@@ -15,8 +15,7 @@ class BarcelonaMatchesApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
-  var Make =    new MakeRequestClass();
-                Make.makeRequest();
+ 
 
     
     }
@@ -30,7 +29,9 @@ class BarcelonaMatchesApp extends Application.AppBase {
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
        
-
+ var Make =    new MakeRequestClass();
+                Make.makeRequest();
+                
         return [ new BarcelonaMatchesView("Starting ","Please wait","") ] as Array<Views or InputDelegates>;
     }
     

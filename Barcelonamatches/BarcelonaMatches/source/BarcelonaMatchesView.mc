@@ -33,11 +33,7 @@ hidden var _Date;
      
     }
 
- function onKey(keyEvent) {
-            WatchUi.pushView( new Rez.Menus.MainMenu(), new MyMenuDelegate(), WatchUi.SLIDE_UP );
-           System.println("KEY!!!!");
-        return true;
-    }
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
