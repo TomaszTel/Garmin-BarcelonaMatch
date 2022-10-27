@@ -21,11 +21,10 @@ class GlanceView extends WatchUi.GlanceView {
 
  
     public function onUpdate(dc as Dc) as Void {
-      var myTimer = new Timer.Timer();
-    myTimer.start(method(:timerCallback), 300000, true);
+   
 
 
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLACK);
         dc.clear();
         dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, Graphics.FONT_TINY, _message, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         //dc.drawRectangle(0, 0, dc.getWidth(), dc.getHeight());
