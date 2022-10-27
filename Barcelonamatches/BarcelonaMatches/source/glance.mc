@@ -1,51 +1,52 @@
 using Toybox.WatchUi;
 using Toybox.Graphics as Gfx;
-
+using Toybox.Timer;
 (:glance)
 class GlanceView extends WatchUi.GlanceView {
 
-  var _workoutText;
-    hidden var width;
-    hidden var height;
-    hidden var textHeight;
-    hidden var started = false;
-      hidden var mainview;
 
+   private var _message as String = "Press menu or\nselect button";
 
-
-  function initialize() {
-    GlanceView.initialize();
-  }
-function onShow()
-{
-
-}
-function onHide() {
+    
+    public function initialize() {
+        WatchUi.GlanceView.initialize();
     }
-  function onLayout(dc) {
-            started = true;
 
-    // FIXME - adjust formatting to merge lines 2 & 3 for glance view
-    _workoutText = "TEXT";
-    // Application.getApp().log("workoutText(" + _workoutText + ")");
-  }
+   
+    public function onLayout(dc as Dc) as Void {
+    }
 
-  function onUpdate(dc) {
-        width = dc.getWidth();
-        height = dc.getHeight();
+    public function onShow() as Void {
+    }
 
- if (textHeight == null) {
-            var dim = dc.getTextDimensions("Dummy", Gfx.FONT_SYSTEM_XTINY);
-            textHeight = dim[1];
+ 
+    public function onUpdate(dc as Dc) as Void {
+      var myTimer = new Timer.Timer();
+    myTimer.start(method(:timerCallback), 300000, true);
+
+
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        dc.clear();
+        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, Graphics.FONT_TINY, _message, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        //dc.drawRectangle(0, 0, dc.getWidth(), dc.getHeight());
+    }
+
+  
+    public function onHide() as Void {
+    }
+
+ 
+    public function onReceive(args as Dictionary or String or Null) as Void {
+        if (args instanceof String) {
+            _message = args;
+        } else if (args instanceof Dictionary) {
+            var keys = args.keys();
+            _message = "";
+            for (var i = 0; i < keys.size(); i++) {
+                _message += Lang.format("$1$: $2$\n", [keys[i], args[keys[i]]]);
+            }
         }
-         System.println("Glance onUpdate(): width:" + dc.getWidth() + " height:" + dc.getHeight());
-        dc.setColor(0xffecb8, Gfx.COLOR_TRANSPARENT);
-   var text = "Loading...";
-
-    if (!started) {
-            dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Gfx.FONT_XTINY, text, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
-        }
-    dc.drawText(dc.getWidth()/3, dc.getHeight() /3, Graphics.FONT_XTINY,  "TEXT", Graphics.TEXT_JUSTIFY_LEFT);
-  }
+       
+    }
 
 }

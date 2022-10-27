@@ -1,6 +1,10 @@
  
  using Toybox.WatchUi;
-
+(:glance)
+module MakeRequestModule
+{
+     var Date ;
+     (:glance)
  class MakeRequestClass  {
 
 const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1";
@@ -33,6 +37,8 @@ var ReplaceFunctionAway = ParsingStringClass.stringReplace(TrimmerAway,"e=>","")
 var ReplaceFunctionAway2 = ParsingStringClass.stringReplace(ReplaceFunctionAway,",","");
 var ReplaceFunctionAway3 = ParsingStringClass.stringReplace(ReplaceFunctionAway2,"nam","");
 var ReplaceFunctionAway4 = null;
+
+
 if(ReplaceFunctionAway3.equals("mCádiz CF"))
 {
         
@@ -53,12 +59,11 @@ var TrimmerDate = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","se
 
         if (responseCode == 200)
         {
-                
-
-
+                Date = TrimmerDate;
+              
                         if(ReplaceFunctionAway3.equals("mCádiz CF"))
 {
-               WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+                           WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 }
 else
@@ -80,3 +85,4 @@ else
 
 }
  
+}

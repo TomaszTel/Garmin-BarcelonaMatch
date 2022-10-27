@@ -6,7 +6,7 @@ class MyMenuDelegate extends WatchUi.MenuInputDelegate {
     function initialize() {
         MenuInputDelegate.initialize();
     }
-     var Make = new MakeRequestClass();
+     var Make = new MakeRequestModule.MakeRequestClass();
 
     function onMenuItem(item) {
         

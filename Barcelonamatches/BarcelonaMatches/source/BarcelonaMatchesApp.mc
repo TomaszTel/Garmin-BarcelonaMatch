@@ -4,20 +4,24 @@ import Toybox.WatchUi;
 
 (:glance)
 class BarcelonaMatchesApp extends Application.AppBase {
-
+var deviceSettings = System.getDeviceSettings();
     function initialize() {
         AppBase.initialize();
     }
-    // function getGlanceView() {
-   //  return [ new GlanceView() ];
- //  }
+ 
+     function getGlanceView() {
+          
+  
+
+         var view = new $.GlanceView();
+         
+         var delegate = new $.WebRequestDelegate(view.method(:onReceive));
+   return [ view ];
+   }
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
-                var Make =    new MakeRequestClass();
-
-     Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
-
+       
            
 
     }
@@ -29,9 +33,23 @@ class BarcelonaMatchesApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-       
-                  
-        return [ new BarcelonaMatchesView("Loading","Please wait","") ] as Array<Views or InputDelegates> ;
+           var Make = new MakeRequestModule.MakeRequestClass();
+
+                           
+                           
+         if (deviceSettings.phoneConnected) {
+     Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
+            }
+
+    if (!deviceSettings.phoneConnected) {
+        return [ new BarcelonaMatchesView("Connect Phone ","","Try again later") ] as Array<Views or InputDelegates> ;
+
+}
+    else
+{
+        return [ new BarcelonaMatchesView("Loading...","","") ] as Array<Views or InputDelegates> ;
+
+}
       
   
         

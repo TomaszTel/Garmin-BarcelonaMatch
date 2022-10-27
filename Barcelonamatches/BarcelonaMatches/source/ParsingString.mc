@@ -2,7 +2,7 @@
 
   
  using Toybox.WatchUi;
-
+(:glance)
  class FindAndSubstringClass  {
 
 function FindAndSubstring(DataString,IndexFrom,IndexTo,IndexFromRemove,IndexToRemove)
