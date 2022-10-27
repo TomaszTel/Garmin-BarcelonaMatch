@@ -7,9 +7,9 @@ hidden var _Away;
 hidden var _Date;
     function initialize(home,away,date) {
         View.initialize();
-        _Home = home;
+            _Home = home;
                 _Away = away;
-_Date = date;
+                    _Date = date;
        
     }
 
@@ -23,9 +23,7 @@ _Date = date;
     
     }
     
-    function getGlanceView() {
-     return [ new GlanceView() ];
-   }
+  
 
     
     // Called when this View is brought to the foreground. Restore
