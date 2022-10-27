@@ -1,7 +1,7 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
 
-
+(:glance)
 class MyMenuDelegate extends WatchUi.MenuInputDelegate {
     function initialize() {
         MenuInputDelegate.initialize();
