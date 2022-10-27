@@ -1,13 +1,18 @@
-import Toybox.WatchUi;
 
-class MyBehaviorDelegate extends WatchUi.BehaviorDelegate {
-    function initialize() {
-        BehaviorDelegate.initialize();
-    }
+using Toybox.WatchUi as Ui;
+using Toybox.System as Sys;
 
-     function onMenu() {
-            WatchUi.pushView( new Rez.Menus.MainMenu(), new MyMenuDelegate(), WatchUi.SLIDE_UP );
-           System.println("KEY!!!!");
-        return true;
-    }
+class MyBehaviorDelegate extends Ui.BehaviorDelegate {
+
+function initialize() {
+Sys.println( "Open Menu" );
+BehaviorDelegate.initialize();
+}
+
+function onMenu() {
+Sys.println( "Open Menu" );
+            Ui.pushView( new Rez.Menus.MainMenu(), new MyMenuDelegate(), Ui.SLIDE_UP );
+return true;
+}
+
 }

@@ -1,4 +1,6 @@
-<menu2 id="MainMenu" >
-  <menu-item id="generic1" label="Generic 1" subLabel="With Sublabel"></menu-item>
-  <menu-item id="generic2" label="Generic 2"></menu-item>
-</menu2>
+<menu id="MainMenu" >
+<menu-item id="Barcelona" label="Barcelona"></menu-item>
+<menu-item id="RealMadryt" label="Real Madryt"></menu-item>
+<menu-item id="AtleticoMadryt" label="Atletico Madryt "></menu-item>
+
+</menu>

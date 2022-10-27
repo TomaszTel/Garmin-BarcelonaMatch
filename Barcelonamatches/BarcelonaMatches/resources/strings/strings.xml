@@ -1,22 +1,6 @@
 <strings>
     <string id="AppName">BarcelonaMatches</string>
-    <string id="dayToday" scope="glance">today</string>
-  <string id="dayTomorrow" scope="glance">tomorrow</string>
-  <string id="dayYesterday" scope="glance">yesterday</string>
+    <string id="Reset">Reset Score</string>
 
-  <string id="unitsCelsius" scope="glance">°C</string>
-  <string id="unitsFahrenheit" scope="glance">°F</string>
-  <string id="unitsMillimetres" scope="glance">mm</string>
-  <string id="unitsCentimetres" scope="glance">cm</string>
-  <string id="unitsParsecs" scope="glance">pc</string>
-  <string id="unitsMetres" scope="glance">m</string>
-  <string id="unitsFeet" scope="glance">ft</string>
-  <string id="unitsKilometres" scope="glance">km</string>
-  <string id="unitsMiles" scope="glance">mi</string>
-  <string id="unitsMinutes" scope="glance">min</string>
-
-  <string id="workoutNextWorkoutString" scope="glance">$1$\n$2$\n$3$</string>
-  <string id="workoutNoWorkout" scope="glance">No workout available\nplease adjust your\nplan</string>
-  <string id="workoutNoWorkoutExternalSchedule" scope="glance">No workouts while\nyour plan is set to\nexternal schedule</string>
 </strings>
 

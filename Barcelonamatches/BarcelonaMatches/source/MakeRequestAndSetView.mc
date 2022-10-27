@@ -8,15 +8,14 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
  var ParsingStringClass = new FindAndSubstringClass();
                 
 
-  function makeRequest() {
-       var url = URL;
+  function makeRequest(URL) {
        var options = {
          :method => Communications.HTTP_REQUEST_METHOD_GET,
             :headers => {"X-Auth-Token" => "d241fae71038458d9815e08ec3f62937"}
        };
        var responseCallback = method(:onReceive);
 
-       Communications.makeWebRequest(url, null, options, method(:onReceive));
+       Communications.makeWebRequest(URL, null, options, method(:onReceive));
   }
 
 
@@ -43,12 +42,11 @@ System.println("!----------------!");
 
         if (responseCode == 200)
         {
-          
-               WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome,ReplaceFunctionAway,TrimmerDate), null, WatchUi.SLIDE_IMMEDIATE);
+               WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome,ReplaceFunctionAway,TrimmerDate), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
        }
        else
        {
-               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode,""),"", null, WatchUi.SLIDE_IMMEDIATE);
+               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode,""),"", new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
        }
    }

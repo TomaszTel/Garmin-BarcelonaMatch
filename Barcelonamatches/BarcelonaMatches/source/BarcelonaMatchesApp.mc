@@ -5,7 +5,6 @@ import Toybox.WatchUi;
 (:glance)
 class BarcelonaMatchesApp extends Application.AppBase {
 
-
     function initialize() {
         AppBase.initialize();
     }
@@ -15,11 +14,13 @@ class BarcelonaMatchesApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
- 
+                var Make =    new MakeRequestClass();
 
-    
+     Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
+
+           
+
     }
-
 
 
     // onStop() is called when your application is exiting
@@ -29,10 +30,12 @@ class BarcelonaMatchesApp extends Application.AppBase {
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
        
- var Make =    new MakeRequestClass();
-                Make.makeRequest();
-                
-        return [ new BarcelonaMatchesView("Starting ","Please wait","") ] as Array<Views or InputDelegates>;
+                  
+        return [ new BarcelonaMatchesView("Loading","Please wait","") ] as Array<Views or InputDelegates> ;
+      
+  
+        
+
     }
     
     
