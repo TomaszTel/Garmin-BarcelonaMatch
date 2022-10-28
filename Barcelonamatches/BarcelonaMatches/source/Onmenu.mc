@@ -12,6 +12,7 @@ BehaviorDelegate.initialize();
 function onMenu() {
 Sys.println( "Open Menu" );
             Ui.pushView( new Rez.Menus.MainMenu(), new MyMenuDelegate(), Ui.SLIDE_UP );
+
 return true;
 }
 

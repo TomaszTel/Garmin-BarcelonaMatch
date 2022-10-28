@@ -5,15 +5,16 @@ class BarcelonaMatchesView extends WatchUi.View {
 hidden var _Home;
 hidden var _Away;
 hidden var _Date;
+hidden var _Competence;
+hidden var _Hours;
 
-
-
-    function initialize(home,away,date) {
+    function initialize(home,away,date,competence,hours) {
         View.initialize();
             _Home = home;
                 _Away = away;
                     _Date = date;
-
+                        _Competence = competence;
+                            _Hours = hours;
     }
 
 
@@ -24,6 +25,8 @@ hidden var _Date;
                 View.findDrawableById("messageHome").setText(_Home);
                                 View.findDrawableById("messageAway").setText(_Away);
                                     View.findDrawableById("Date").setText(_Date);
+                                        View.findDrawableById("competence").setText(_Competence);
+                                             View.findDrawableById("Hours").setText(_Hours);
     }
     
   

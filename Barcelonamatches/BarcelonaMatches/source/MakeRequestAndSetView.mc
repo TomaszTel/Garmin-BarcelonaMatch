@@ -46,16 +46,28 @@ if(ReplaceFunctionAway3.equals("mCádiz CF"))
 
 }
 var TrimmerDate = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",9,12);
+var TrimmerCompetence = ParsingStringClass.FindAndSubstring(DataString,"competition=>",", utcDate=>",103,1);
+var TrimmerGetHour = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",20,9);
+var HoursPlusUtc = TrimmerGetHour.toNumber() + 2;
+var TrimmerGetMinute = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",22,6);
+var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
+//System.println("Hours: "+TrimmerGetHour);
+//System.println("Minutes: "+TrimmerGetMinute);
+//System.println("Complete Hours: "+PrintHours);
 
-//System.println(ReplaceFunctionAway2);
 //System.println("!----------------!");
 
 //System.println(ReplaceFunctionHome2);
 //System.println("!----------------!");
 
+//System.println(TrimmerCompetence);
+//System.println("!----------------!");
+
 //System.println(DataString);
 //System.println("!----------------!");
+
+
 
         if (responseCode == 200)
         {
@@ -63,12 +75,12 @@ var TrimmerDate = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","se
               
                         if(ReplaceFunctionAway3.equals("mCádiz CF"))
 {
-                           WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+                           WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 }
 else
 {
-                       WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway3,TrimmerDate), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+                       WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway3,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 }
 
@@ -76,7 +88,7 @@ else
        }
        else
        {
-               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode,""),"", new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode,"","",""),"", new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
        }
    }

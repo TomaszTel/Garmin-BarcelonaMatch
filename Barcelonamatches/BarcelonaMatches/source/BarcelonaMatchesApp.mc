@@ -10,11 +10,8 @@ var deviceSettings = System.getDeviceSettings();
     }
  
      function getGlanceView() {
-          
-  
 
          var view = new $.GlanceView();
-         
          var delegate = new $.WebRequestDelegate(view.method(:onReceive));
    return [ view ];
    }
@@ -42,12 +39,12 @@ var deviceSettings = System.getDeviceSettings();
             }
 
     if (!deviceSettings.phoneConnected) {
-        return [ new BarcelonaMatchesView("Connect Phone ","","Try again later") ] as Array<Views or InputDelegates> ;
+        return [ new BarcelonaMatchesView("Connect Phone ","","Try again later","","") ] as Array<Views or InputDelegates> ;
 
 }
     else
 {
-        return [ new BarcelonaMatchesView("Loading...","","") ] as Array<Views or InputDelegates> ;
+        return [ new BarcelonaMatchesView("Loading...","","","","") ] as Array<Views or InputDelegates> ;
 
 }
       
