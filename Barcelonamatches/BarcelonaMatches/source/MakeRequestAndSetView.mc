@@ -1,9 +1,13 @@
  
  using Toybox.WatchUi;
+ using Toybox.Attention;
+
+
 (:glance)
 module MakeRequestModule
 {
      var Date ;
+    var vibeData;
      (:glance)
  class MakeRequestClass  {
 
@@ -27,7 +31,13 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
   function onReceive(responseCode, data) {
      var DataString = data.toString();
      
-
+if (Attention has :vibrate) {
+    vibeData =
+    [
+        new Attention.VibeProfile(50, 400) 
+ 
+    ];
+}
 var TrimmerHome = ParsingStringClass.FindAndSubstring(DataString,"awayTeam=>","tla=>",69,2);
 var ReplaceFunctionHome = ParsingStringClass.stringReplace(TrimmerHome,">","");
 var ReplaceFunctionHome2 = ParsingStringClass.stringReplace(ReplaceFunctionHome,"=","");
@@ -75,11 +85,15 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
               
                         if(ReplaceFunctionAway3.equals("mCádiz CF"))
 {
+                               Attention.vibrate(vibeData);
+
                            WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 }
 else
 {
+        Attention.vibrate(vibeData);
+
                        WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway3,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 }

@@ -27,6 +27,7 @@ hidden var _Hours;
                                     View.findDrawableById("Date").setText(_Date);
                                         View.findDrawableById("competence").setText(_Competence);
                                              View.findDrawableById("Hours").setText(_Hours);
+                                             
     }
     
   
