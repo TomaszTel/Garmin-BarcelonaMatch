@@ -19,8 +19,9 @@ var deviceSettings = System.getDeviceSettings();
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
        
-           
+        
 
+     
     }
 
 
@@ -35,7 +36,7 @@ var deviceSettings = System.getDeviceSettings();
                            
                            
          if (deviceSettings.phoneConnected) {
-     Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
+    Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
             }
 
     if (!deviceSettings.phoneConnected) {

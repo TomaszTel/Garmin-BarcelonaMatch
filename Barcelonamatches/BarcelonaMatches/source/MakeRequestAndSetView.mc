@@ -1,7 +1,7 @@
  
  using Toybox.WatchUi;
  using Toybox.Attention;
-
+        using Toybox.Application.Storage;
 
 (:glance)
 module MakeRequestModule
@@ -62,6 +62,10 @@ var HoursPlusUtc = TrimmerGetHour.toNumber() + 2;
 var TrimmerGetMinute = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",22,6);
 var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
+
+            Storage.setValue("DateMatch",TrimmerDate +"|"+PrintHours);
+
+
 //System.println("Hours: "+TrimmerGetHour);
 //System.println("Minutes: "+TrimmerGetMinute);
 //System.println("Complete Hours: "+PrintHours);
@@ -87,7 +91,7 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 {
                                Attention.vibrate(vibeData);
 
-                           WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+                          WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 }
 else
