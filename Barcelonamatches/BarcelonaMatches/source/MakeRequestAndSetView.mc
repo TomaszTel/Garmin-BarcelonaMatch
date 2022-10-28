@@ -53,6 +53,7 @@ if(ReplaceFunctionAway3.equals("mCádiz CF"))
 {
         
          ReplaceFunctionAway4 = ParsingStringClass.stringReplace(ReplaceFunctionAway3,"m","");
+         
 
 }
 var TrimmerDate = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",9,12);
@@ -64,8 +65,8 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
 
             Storage.setValue("DateMatch",TrimmerDate +"|"+PrintHours);
-
-
+                            Storage.setValue("AwayTeam",ReplaceFunctionAway3);
+                                Storage.setValue("HomeTeam",ReplaceFunctionHome2);
 //System.println("Hours: "+TrimmerGetHour);
 //System.println("Minutes: "+TrimmerGetMinute);
 //System.println("Complete Hours: "+PrintHours);
@@ -90,7 +91,7 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
                         if(ReplaceFunctionAway3.equals("mCádiz CF"))
 {
                                Attention.vibrate(vibeData);
-
+                                Storage.setValue("AwayTeam",ReplaceFunctionAway4);
                           WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 }

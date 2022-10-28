@@ -36,8 +36,11 @@ var ParsingStringClass = new FindAndSubstringClass();
     private function GetFromStorage() as Void {
         _notify.invoke("Executing\nPlease wait");
 
-     var test =     Storage.getValue("DateMatch");
-            _notify.invoke(test);
+     var GetDate =  Storage.getValue("DateMatch");
+          var GetAway =  Storage.getValue("AwayTeam");
+                 var GetHome =  Storage.getValue("HomeTeam");
+
+            _notify.invoke(GetHome+" - "+GetAway+"\n"+GetDate);
     }
 
    
