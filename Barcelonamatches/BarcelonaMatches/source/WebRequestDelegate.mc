@@ -55,8 +55,12 @@ var ParsingStringClass = new FindAndSubstringClass();
         if (responseCode == 200) {
                 var DateToString  = data.toString();
             var TrimmerDate = FindAndSubstringClass.FindAndSubstring(DateToString,"utcDate=>","season=>",9,12);
+var TrimmerGetHour = FindAndSubstringClass.FindAndSubstring(DateToString,"utcDate=>","season=>",20,9);
+var HoursPlusUtc = TrimmerGetHour.toNumber() + 2;
+var TrimmerGetMinute = FindAndSubstringClass.FindAndSubstring(DateToString,"utcDate=>","season=>",22,6);
+var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
-            _notify.invoke(TrimmerDate);
+            _notify.invoke(TrimmerDate+" "+PrintHours);
         } else {
             _notify.invoke("Failed to load\nError: " + responseCode.toString());
         }

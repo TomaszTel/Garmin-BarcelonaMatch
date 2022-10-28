@@ -14,9 +14,9 @@
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="2" lineNum="23" parent="globals/MyMenuDelegate" pc="268435603" symbol="onMenuItem"/>
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="2" lineNum="25" parent="globals/MyMenuDelegate" pc="268435614" symbol="onMenuItem"/>
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="2" lineNum="26" parent="globals/MyMenuDelegate" pc="268435637" symbol="onMenuItem"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="3" lineNum="5" parent="globals/MyMenuDelegate" pc="268438302" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="3" lineNum="9" parent="globals/MyMenuDelegate" pc="268438320" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="3" lineNum="5" parent="globals/MyMenuDelegate" pc="268438302" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="3" lineNum="5" parent="globals/MyMenuDelegate" pc="268438428" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="3" lineNum="9" parent="globals/MyMenuDelegate" pc="268438446" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\delegate.mc" id="3" lineNum="5" parent="globals/MyMenuDelegate" pc="268438428" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="5" lineNum="16" parent="globals/WebRequestDelegate" pc="268435664" symbol="initialize"/>
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="5" lineNum="17" parent="globals/WebRequestDelegate" pc="268435668" symbol="initialize"/>
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="5" lineNum="18" parent="globals/WebRequestDelegate" pc="268435690" symbol="initialize"/>
@@ -36,151 +36,155 @@
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="55" parent="globals/WebRequestDelegate" pc="268435868" symbol="onReceive"/>
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="56" parent="globals/WebRequestDelegate" pc="268435879" symbol="onReceive"/>
         <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="57" parent="globals/WebRequestDelegate" pc="268435892" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="59" parent="globals/WebRequestDelegate" pc="268435933" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="61" parent="globals/WebRequestDelegate" pc="268435956" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="10" lineNum="12" parent="globals/WebRequestDelegate" pc="268438358" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="10" lineNum="14" parent="globals/WebRequestDelegate" pc="268438376" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="10" lineNum="12" parent="globals/WebRequestDelegate" pc="268438358" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="19" parent="globals/MakeRequestModule/MakeRequestClass" pc="268435992" symbol="makeRequest"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="20" parent="globals/MakeRequestModule/MakeRequestClass" pc="268435996" symbol="makeRequest"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="24" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436053" symbol="makeRequest"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="26" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436071" symbol="makeRequest"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="31" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436111" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="32" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436115" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="34" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436128" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="35" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436143" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="41" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436204" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="42" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436245" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="43" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436276" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="45" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436307" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="46" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436348" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="47" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436379" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="48" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436410" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="49" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436441" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="52" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436444" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="55" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436463" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="58" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436497" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="59" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436538" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="60" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436579" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="61" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436620" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="62" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436639" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="63" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436680" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="82" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436696" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="84" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436707" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="86" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436717" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="88" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436736" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="90" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436760" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="95" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436845" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="97" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436869" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="105" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436954" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="14" lineNum="16" parent="globals/MakeRequestModule/MakeRequestClass" pc="268438452" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="14" lineNum="12" parent="globals/MakeRequestModule/MakeRequestClass" pc="268438452" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="15" lineNum="12" parent="globals/MakeRequestModule/MakeRequestClass" pc="268437054" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="16" lineNum="7" parent="globals/MakeRequestModule" pc="268438451" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="8" parent="globals/FindAndSubstringClass" pc="268437057" symbol="FindAndSubstring"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="10" parent="globals/FindAndSubstringClass" pc="268437061" symbol="FindAndSubstring"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="11" parent="globals/FindAndSubstringClass" pc="268437076" symbol="FindAndSubstring"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="13" parent="globals/FindAndSubstringClass" pc="268437091" symbol="FindAndSubstring"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="15" parent="globals/FindAndSubstringClass" pc="268437114" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="17" parent="globals/FindAndSubstringClass" pc="268437118" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="19" parent="globals/FindAndSubstringClass" pc="268437122" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="21" parent="globals/FindAndSubstringClass" pc="268437127" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="23" parent="globals/FindAndSubstringClass" pc="268437142" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="25" parent="globals/FindAndSubstringClass" pc="268437149" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="26" parent="globals/FindAndSubstringClass" pc="268437165" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="30" parent="globals/FindAndSubstringClass" pc="268437216" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="34" parent="globals/FindAndSubstringClass" pc="268437222" symbol="stringReplace"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="20" lineNum="6" parent="globals/FindAndSubstringClass" pc="268438357" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="21" lineNum="6" parent="globals/FindAndSubstringClass" pc="268437225" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="11" parent="globals/BarcelonaMatchesView" pc="268437228" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="12" parent="globals/BarcelonaMatchesView" pc="268437232" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="13" parent="globals/BarcelonaMatchesView" pc="268437250" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="14" parent="globals/BarcelonaMatchesView" pc="268437260" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="15" parent="globals/BarcelonaMatchesView" pc="268437270" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="16" parent="globals/BarcelonaMatchesView" pc="268437280" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="17" parent="globals/BarcelonaMatchesView" pc="268437290" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="22" parent="globals/BarcelonaMatchesView" pc="268437301" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="24" parent="globals/BarcelonaMatchesView" pc="268437305" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="25" parent="globals/BarcelonaMatchesView" pc="268437342" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="26" parent="globals/BarcelonaMatchesView" pc="268437382" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="27" parent="globals/BarcelonaMatchesView" pc="268437422" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="28" parent="globals/BarcelonaMatchesView" pc="268437462" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="29" parent="globals/BarcelonaMatchesView" pc="268437502" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="25" lineNum="39" parent="globals/BarcelonaMatchesView" pc="268437543" symbol="onShow"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="26" lineNum="45" parent="globals/BarcelonaMatchesView" pc="268437548" symbol="onUpdate"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="26" lineNum="47" parent="globals/BarcelonaMatchesView" pc="268437552" symbol="onUpdate"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="27" lineNum="55" parent="globals/BarcelonaMatchesView" pc="268437573" symbol="onHide"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="28" lineNum="4" parent="globals/BarcelonaMatchesView" pc="268438483" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="28" lineNum="4" parent="globals/BarcelonaMatchesView" pc="268438483" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="30" lineNum="7" parent="globals/MyBehaviorDelegate" pc="268438521" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="30" lineNum="8" parent="globals/MyBehaviorDelegate" pc="268438525" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="30" lineNum="9" parent="globals/MyBehaviorDelegate" pc="268438546" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="12" parent="globals/MyBehaviorDelegate" pc="268438565" symbol="onMenu"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="13" parent="globals/MyBehaviorDelegate" pc="268438569" symbol="onMenu"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="14" parent="globals/MyBehaviorDelegate" pc="268438590" symbol="onMenu"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="16" parent="globals/MyBehaviorDelegate" pc="268438674" symbol="onMenu"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="32" lineNum="5" parent="globals/MyBehaviorDelegate" pc="268439325" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="32" lineNum="5" parent="globals/MyBehaviorDelegate" pc="268439325" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="34" lineNum="11" parent="globals/GlanceView" pc="268437578" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="34" lineNum="12" parent="globals/GlanceView" pc="268437582" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="35" lineNum="16" parent="globals/GlanceView" pc="268437605" symbol="onLayout"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="36" lineNum="19" parent="globals/GlanceView" pc="268437610" symbol="onShow"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="23" parent="globals/GlanceView" pc="268437615" symbol="onUpdate"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="27" parent="globals/GlanceView" pc="268437619" symbol="onUpdate"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="28" parent="globals/GlanceView" pc="268437659" symbol="onUpdate"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="29" parent="globals/GlanceView" pc="268437671" symbol="onUpdate"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="38" lineNum="34" parent="globals/GlanceView" pc="268437769" symbol="onHide"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="38" parent="globals/GlanceView" pc="268437774" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="39" parent="globals/GlanceView" pc="268437778" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="40" parent="globals/GlanceView" pc="268437792" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="41" parent="globals/GlanceView" pc="268437805" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="42" parent="globals/GlanceView" pc="268437819" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="43" parent="globals/GlanceView" pc="268437832" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="44" parent="globals/GlanceView" pc="268437845" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="45" parent="globals/GlanceView" pc="268437869" symbol="onReceive"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="40" lineNum="5" parent="globals/GlanceView" pc="268438502" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="40" lineNum="5" parent="globals/GlanceView" pc="268438502" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="42" lineNum="8" parent="globals/BarcelonaMatchesApp" pc="268437957" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="42" lineNum="9" parent="globals/BarcelonaMatchesApp" pc="268437961" symbol="initialize"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="12" parent="globals/BarcelonaMatchesApp" pc="268437980" symbol="getGlanceView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="14" parent="globals/BarcelonaMatchesApp" pc="268437984" symbol="getGlanceView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="15" parent="globals/BarcelonaMatchesApp" pc="268438012" symbol="getGlanceView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="16" parent="globals/BarcelonaMatchesApp" pc="268438056" symbol="getGlanceView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="44" lineNum="20" parent="globals/BarcelonaMatchesApp" pc="268438074" symbol="onStart"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="45" lineNum="28" parent="globals/BarcelonaMatchesApp" pc="268438079" symbol="onStop"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="32" parent="globals/BarcelonaMatchesApp" pc="268438084" symbol="getInitialView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="33" parent="globals/BarcelonaMatchesApp" pc="268438088" symbol="getInitialView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="37" parent="globals/BarcelonaMatchesApp" pc="268438118" symbol="getInitialView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="38" parent="globals/BarcelonaMatchesApp" pc="268438135" symbol="getInitialView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="41" parent="globals/BarcelonaMatchesApp" pc="268438155" symbol="getInitialView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="42" parent="globals/BarcelonaMatchesApp" pc="268438173" symbol="getInitialView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="47" parent="globals/BarcelonaMatchesApp" pc="268438238" symbol="getInitialView"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="47" lineNum="6" parent="globals/BarcelonaMatchesApp" pc="268438407" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="47" lineNum="7" parent="globals/BarcelonaMatchesApp" pc="268438425" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="47" lineNum="6" parent="globals/BarcelonaMatchesApp" pc="268438407" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="49" lineNum="2" parent="globals/Rez/Drawables" pc="268439368" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="50" lineNum="6" parent="globals/Rez/Fonts" pc="268439389" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="51" lineNum="8" parent="globals/Rez/JsonData" pc="268439391" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="52" lineNum="17" parent="globals/Rez/Layouts" pc="268438678" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="19" parent="globals/Rez/Layouts" pc="268438690" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="20" parent="globals/Rez/Layouts" pc="268438783" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="21" parent="globals/Rez/Layouts" pc="268438876" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="22" parent="globals/Rez/Layouts" pc="268438969" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="23" parent="globals/Rez/Layouts" pc="268439062" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="25" parent="globals/Rez/Layouts" pc="268439155" symbol="MainLayout"/>
-        <entry filename="Rez" id="53" lineNum="10" parent="globals/Rez/Layouts" pc="268439390" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="54" lineNum="39" parent="globals/Rez/Menus/MainMenu" pc="268439213" symbol="initialize"/>
-        <entry filename="Rez" id="54" lineNum="40" parent="globals/Rez/Menus/MainMenu" pc="268439217" symbol="initialize"/>
-        <entry filename="Rez" id="54" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268439235" symbol="initialize"/>
-        <entry filename="Rez" id="54" lineNum="42" parent="globals/Rez/Menus/MainMenu" pc="268439258" symbol="initialize"/>
-        <entry filename="Rez" id="54" lineNum="43" parent="globals/Rez/Menus/MainMenu" pc="268439280" symbol="initialize"/>
-        <entry filename="Rez" id="54" lineNum="44" parent="globals/Rez/Menus/MainMenu" pc="268439302" symbol="initialize"/>
-        <entry filename="Rez" id="55" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268439370" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="55" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268439370" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="56" lineNum="30" parent="globals/Rez/Menus" pc="268439369" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="57" lineNum="50" parent="globals/Rez/Strings" pc="268439392" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="58" lineNum="1" parent="globals/Rez" pc="268439344" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="58" lineNum="1" parent="globals/Rez" pc="268439344" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="58" parent="globals/WebRequestDelegate" pc="268435933" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="59" parent="globals/WebRequestDelegate" pc="268435974" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="60" parent="globals/WebRequestDelegate" pc="268435993" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="61" parent="globals/WebRequestDelegate" pc="268436034" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="63" parent="globals/WebRequestDelegate" pc="268436050" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="9" lineNum="65" parent="globals/WebRequestDelegate" pc="268436082" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="10" lineNum="12" parent="globals/WebRequestDelegate" pc="268438484" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="10" lineNum="14" parent="globals/WebRequestDelegate" pc="268438502" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\WebRequestDelegate.mc" id="10" lineNum="12" parent="globals/WebRequestDelegate" pc="268438484" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="19" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436118" symbol="makeRequest"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="20" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436122" symbol="makeRequest"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="24" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436179" symbol="makeRequest"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="12" lineNum="26" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436197" symbol="makeRequest"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="31" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436237" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="32" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436241" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="34" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436254" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="35" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436269" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="41" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436330" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="42" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436371" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="43" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436402" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="45" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436433" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="46" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436474" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="47" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436505" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="48" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436536" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="49" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436567" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="52" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436570" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="55" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436589" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="58" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436623" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="59" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436664" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="60" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436705" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="61" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436746" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="62" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436765" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="63" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436806" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="82" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436822" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="84" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436833" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="86" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436843" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="88" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436862" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="90" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436886" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="95" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436971" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="97" parent="globals/MakeRequestModule/MakeRequestClass" pc="268436995" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="13" lineNum="105" parent="globals/MakeRequestModule/MakeRequestClass" pc="268437080" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="14" lineNum="16" parent="globals/MakeRequestModule/MakeRequestClass" pc="268438578" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="14" lineNum="12" parent="globals/MakeRequestModule/MakeRequestClass" pc="268438578" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="15" lineNum="12" parent="globals/MakeRequestModule/MakeRequestClass" pc="268437180" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\MakeRequestAndSetView.mc" id="16" lineNum="7" parent="globals/MakeRequestModule" pc="268438577" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="8" parent="globals/FindAndSubstringClass" pc="268437183" symbol="FindAndSubstring"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="10" parent="globals/FindAndSubstringClass" pc="268437187" symbol="FindAndSubstring"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="11" parent="globals/FindAndSubstringClass" pc="268437202" symbol="FindAndSubstring"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="18" lineNum="13" parent="globals/FindAndSubstringClass" pc="268437217" symbol="FindAndSubstring"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="15" parent="globals/FindAndSubstringClass" pc="268437240" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="17" parent="globals/FindAndSubstringClass" pc="268437244" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="19" parent="globals/FindAndSubstringClass" pc="268437248" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="21" parent="globals/FindAndSubstringClass" pc="268437253" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="23" parent="globals/FindAndSubstringClass" pc="268437268" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="25" parent="globals/FindAndSubstringClass" pc="268437275" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="26" parent="globals/FindAndSubstringClass" pc="268437291" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="30" parent="globals/FindAndSubstringClass" pc="268437342" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="19" lineNum="34" parent="globals/FindAndSubstringClass" pc="268437348" symbol="stringReplace"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="20" lineNum="6" parent="globals/FindAndSubstringClass" pc="268438483" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\ParsingString.mc" id="21" lineNum="6" parent="globals/FindAndSubstringClass" pc="268437351" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="11" parent="globals/BarcelonaMatchesView" pc="268437354" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="12" parent="globals/BarcelonaMatchesView" pc="268437358" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="13" parent="globals/BarcelonaMatchesView" pc="268437376" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="14" parent="globals/BarcelonaMatchesView" pc="268437386" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="15" parent="globals/BarcelonaMatchesView" pc="268437396" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="16" parent="globals/BarcelonaMatchesView" pc="268437406" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="23" lineNum="17" parent="globals/BarcelonaMatchesView" pc="268437416" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="22" parent="globals/BarcelonaMatchesView" pc="268437427" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="24" parent="globals/BarcelonaMatchesView" pc="268437431" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="25" parent="globals/BarcelonaMatchesView" pc="268437468" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="26" parent="globals/BarcelonaMatchesView" pc="268437508" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="27" parent="globals/BarcelonaMatchesView" pc="268437548" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="28" parent="globals/BarcelonaMatchesView" pc="268437588" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="24" lineNum="29" parent="globals/BarcelonaMatchesView" pc="268437628" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="25" lineNum="39" parent="globals/BarcelonaMatchesView" pc="268437669" symbol="onShow"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="26" lineNum="45" parent="globals/BarcelonaMatchesView" pc="268437674" symbol="onUpdate"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="26" lineNum="47" parent="globals/BarcelonaMatchesView" pc="268437678" symbol="onUpdate"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="27" lineNum="55" parent="globals/BarcelonaMatchesView" pc="268437699" symbol="onHide"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="28" lineNum="4" parent="globals/BarcelonaMatchesView" pc="268438609" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesView.mc" id="28" lineNum="4" parent="globals/BarcelonaMatchesView" pc="268438609" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="30" lineNum="7" parent="globals/MyBehaviorDelegate" pc="268438647" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="30" lineNum="8" parent="globals/MyBehaviorDelegate" pc="268438651" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="30" lineNum="9" parent="globals/MyBehaviorDelegate" pc="268438672" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="12" parent="globals/MyBehaviorDelegate" pc="268438691" symbol="onMenu"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="13" parent="globals/MyBehaviorDelegate" pc="268438695" symbol="onMenu"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="14" parent="globals/MyBehaviorDelegate" pc="268438716" symbol="onMenu"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="31" lineNum="16" parent="globals/MyBehaviorDelegate" pc="268438800" symbol="onMenu"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="32" lineNum="5" parent="globals/MyBehaviorDelegate" pc="268439451" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\Onmenu.mc" id="32" lineNum="5" parent="globals/MyBehaviorDelegate" pc="268439451" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="34" lineNum="11" parent="globals/GlanceView" pc="268437704" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="34" lineNum="12" parent="globals/GlanceView" pc="268437708" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="35" lineNum="16" parent="globals/GlanceView" pc="268437731" symbol="onLayout"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="36" lineNum="19" parent="globals/GlanceView" pc="268437736" symbol="onShow"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="23" parent="globals/GlanceView" pc="268437741" symbol="onUpdate"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="27" parent="globals/GlanceView" pc="268437745" symbol="onUpdate"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="28" parent="globals/GlanceView" pc="268437785" symbol="onUpdate"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="37" lineNum="29" parent="globals/GlanceView" pc="268437797" symbol="onUpdate"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="38" lineNum="34" parent="globals/GlanceView" pc="268437895" symbol="onHide"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="38" parent="globals/GlanceView" pc="268437900" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="39" parent="globals/GlanceView" pc="268437904" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="40" parent="globals/GlanceView" pc="268437918" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="41" parent="globals/GlanceView" pc="268437931" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="42" parent="globals/GlanceView" pc="268437945" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="43" parent="globals/GlanceView" pc="268437958" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="44" parent="globals/GlanceView" pc="268437971" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="39" lineNum="45" parent="globals/GlanceView" pc="268437995" symbol="onReceive"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="40" lineNum="5" parent="globals/GlanceView" pc="268438628" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\glance.mc" id="40" lineNum="5" parent="globals/GlanceView" pc="268438628" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="42" lineNum="8" parent="globals/BarcelonaMatchesApp" pc="268438083" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="42" lineNum="9" parent="globals/BarcelonaMatchesApp" pc="268438087" symbol="initialize"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="12" parent="globals/BarcelonaMatchesApp" pc="268438106" symbol="getGlanceView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="14" parent="globals/BarcelonaMatchesApp" pc="268438110" symbol="getGlanceView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="15" parent="globals/BarcelonaMatchesApp" pc="268438138" symbol="getGlanceView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="43" lineNum="16" parent="globals/BarcelonaMatchesApp" pc="268438182" symbol="getGlanceView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="44" lineNum="20" parent="globals/BarcelonaMatchesApp" pc="268438200" symbol="onStart"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="45" lineNum="28" parent="globals/BarcelonaMatchesApp" pc="268438205" symbol="onStop"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="32" parent="globals/BarcelonaMatchesApp" pc="268438210" symbol="getInitialView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="33" parent="globals/BarcelonaMatchesApp" pc="268438214" symbol="getInitialView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="37" parent="globals/BarcelonaMatchesApp" pc="268438244" symbol="getInitialView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="38" parent="globals/BarcelonaMatchesApp" pc="268438261" symbol="getInitialView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="41" parent="globals/BarcelonaMatchesApp" pc="268438281" symbol="getInitialView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="42" parent="globals/BarcelonaMatchesApp" pc="268438299" symbol="getInitialView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="46" lineNum="47" parent="globals/BarcelonaMatchesApp" pc="268438364" symbol="getInitialView"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="47" lineNum="6" parent="globals/BarcelonaMatchesApp" pc="268438533" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="47" lineNum="7" parent="globals/BarcelonaMatchesApp" pc="268438551" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Garmin\\Garmin-BarcelonaMatch\\Barcelonamatches\\BarcelonaMatches\\source\\BarcelonaMatchesApp.mc" id="47" lineNum="6" parent="globals/BarcelonaMatchesApp" pc="268438533" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="49" lineNum="2" parent="globals/Rez/Drawables" pc="268439494" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="50" lineNum="6" parent="globals/Rez/Fonts" pc="268439515" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="51" lineNum="8" parent="globals/Rez/JsonData" pc="268439517" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="52" lineNum="17" parent="globals/Rez/Layouts" pc="268438804" symbol="MainLayout"/>
+        <entry filename="Rez" id="52" lineNum="19" parent="globals/Rez/Layouts" pc="268438816" symbol="MainLayout"/>
+        <entry filename="Rez" id="52" lineNum="20" parent="globals/Rez/Layouts" pc="268438909" symbol="MainLayout"/>
+        <entry filename="Rez" id="52" lineNum="21" parent="globals/Rez/Layouts" pc="268439002" symbol="MainLayout"/>
+        <entry filename="Rez" id="52" lineNum="22" parent="globals/Rez/Layouts" pc="268439095" symbol="MainLayout"/>
+        <entry filename="Rez" id="52" lineNum="23" parent="globals/Rez/Layouts" pc="268439188" symbol="MainLayout"/>
+        <entry filename="Rez" id="52" lineNum="25" parent="globals/Rez/Layouts" pc="268439281" symbol="MainLayout"/>
+        <entry filename="Rez" id="53" lineNum="10" parent="globals/Rez/Layouts" pc="268439516" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="54" lineNum="39" parent="globals/Rez/Menus/MainMenu" pc="268439339" symbol="initialize"/>
+        <entry filename="Rez" id="54" lineNum="40" parent="globals/Rez/Menus/MainMenu" pc="268439343" symbol="initialize"/>
+        <entry filename="Rez" id="54" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268439361" symbol="initialize"/>
+        <entry filename="Rez" id="54" lineNum="42" parent="globals/Rez/Menus/MainMenu" pc="268439384" symbol="initialize"/>
+        <entry filename="Rez" id="54" lineNum="43" parent="globals/Rez/Menus/MainMenu" pc="268439406" symbol="initialize"/>
+        <entry filename="Rez" id="54" lineNum="44" parent="globals/Rez/Menus/MainMenu" pc="268439428" symbol="initialize"/>
+        <entry filename="Rez" id="55" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268439496" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="55" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268439496" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="56" lineNum="30" parent="globals/Rez/Menus" pc="268439495" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="57" lineNum="50" parent="globals/Rez/Strings" pc="268439518" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="58" lineNum="1" parent="globals/Rez" pc="268439470" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="58" lineNum="1" parent="globals/Rez" pc="268439470" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -267,66 +271,70 @@
         <entry arg="true" endPc="268435663" name="item" stackId="1" startPc="268435479"/>
         <entry arg="true" endPc="268435715" name="handler" stackId="1" startPc="268435664"/>
         <entry endPc="268435862" name="options" stackId="1" startPc="268435760"/>
-        <entry endPc="268435952" name="TrimmerDate" stackId="4" startPc="268435879"/>
-        <entry endPc="268435952" name="DateToString" stackId="3" startPc="268435879"/>
-        <entry arg="true" endPc="268435991" name="responseCode" stackId="1" startPc="268435864"/>
-        <entry arg="true" endPc="268435991" name="data" stackId="2" startPc="268435864"/>
-        <entry endPc="268436109" name="options" stackId="2" startPc="268435996"/>
-        <entry endPc="268436109" name="responseCallback" stackId="3" startPc="268435996"/>
-        <entry arg="true" endPc="268436110" name="URL" stackId="1" startPc="268435992"/>
-        <entry endPc="268437052" name="PrintHours" stackId="17" startPc="268436115"/>
-        <entry endPc="268437052" name="TrimmerCompetence" stackId="13" startPc="268436115"/>
-        <entry endPc="268437052" name="TrimmerGetMinute" stackId="16" startPc="268436115"/>
-        <entry endPc="268437052" name="DataString" stackId="3" startPc="268436115"/>
-        <entry endPc="268437052" name="TrimmerDate" stackId="12" startPc="268436115"/>
-        <entry endPc="268437052" name="HoursPlusUtc" stackId="15" startPc="268436115"/>
-        <entry endPc="268437052" name="ReplaceFunctionAway" stackId="8" startPc="268436115"/>
-        <entry endPc="268437052" name="TrimmerGetHour" stackId="14" startPc="268436115"/>
-        <entry endPc="268437052" name="ReplaceFunctionAway4" stackId="11" startPc="268436115"/>
-        <entry endPc="268437052" name="ReplaceFunctionAway3" stackId="10" startPc="268436115"/>
-        <entry endPc="268437052" name="TrimmerAway" stackId="7" startPc="268436115"/>
-        <entry endPc="268437052" name="ReplaceFunctionAway2" stackId="9" startPc="268436115"/>
-        <entry endPc="268437052" name="ReplaceFunctionHome" stackId="5" startPc="268436115"/>
-        <entry endPc="268437052" name="ReplaceFunctionHome2" stackId="6" startPc="268436115"/>
-        <entry endPc="268437052" name="TrimmerHome" stackId="4" startPc="268436115"/>
-        <entry arg="true" endPc="268437053" name="responseCode" stackId="1" startPc="268436111"/>
-        <entry arg="true" endPc="268437053" name="data" stackId="2" startPc="268436111"/>
-        <entry endPc="268437112" name="indexFrom" stackId="6" startPc="268437061"/>
-        <entry endPc="268437112" name="indexTo" stackId="7" startPc="268437061"/>
-        <entry arg="true" endPc="268437113" name="DataString" stackId="1" startPc="268437057"/>
-        <entry arg="true" endPc="268437113" name="IndexTo" stackId="3" startPc="268437057"/>
-        <entry arg="true" endPc="268437113" name="IndexFrom" stackId="2" startPc="268437057"/>
-        <entry arg="true" endPc="268437113" name="IndexToRemove" stackId="5" startPc="268437057"/>
-        <entry arg="true" endPc="268437113" name="IndexFromRemove" stackId="4" startPc="268437057"/>
-        <entry endPc="268437212" name="index2" stackId="6" startPc="268437149"/>
-        <entry endPc="268437218" name="index" stackId="5" startPc="268437127"/>
-        <entry endPc="268437223" name="result" stackId="4" startPc="268437118"/>
-        <entry arg="true" endPc="268437224" name="oldString" stackId="2" startPc="268437114"/>
-        <entry arg="true" endPc="268437224" name="newString" stackId="3" startPc="268437114"/>
-        <entry arg="true" endPc="268437224" name="str" stackId="1" startPc="268437114"/>
-        <entry arg="true" endPc="268437300" name="hours" stackId="5" startPc="268437228"/>
-        <entry arg="true" endPc="268437300" name="date" stackId="3" startPc="268437228"/>
-        <entry arg="true" endPc="268437300" name="away" stackId="2" startPc="268437228"/>
-        <entry arg="true" endPc="268437300" name="home" stackId="1" startPc="268437228"/>
-        <entry arg="true" endPc="268437300" name="competence" stackId="4" startPc="268437228"/>
-        <entry arg="true" endPc="268437542" name="dc" stackId="1" startPc="268437301"/>
-        <entry arg="true" endPc="268437572" name="dc" stackId="1" startPc="268437548"/>
-        <entry arg="true" endPc="268437609" name="dc" stackId="1" startPc="268437605"/>
-        <entry arg="true" endPc="268437768" name="dc" stackId="1" startPc="268437615"/>
-        <entry endPc="268437952" name="i" stackId="3" startPc="268437869"/>
-        <entry endPc="268437952" name="keys" stackId="2" startPc="268437819"/>
-        <entry arg="true" endPc="268437956" name="args" stackId="1" startPc="268437774"/>
-        <entry endPc="268438072" name="view" stackId="1" startPc="268437984"/>
-        <entry endPc="268438072" name="delegate" stackId="2" startPc="268437984"/>
-        <entry arg="true" endPc="268438078" name="state" stackId="1" startPc="268438074"/>
-        <entry arg="true" endPc="268438083" name="state" stackId="1" startPc="268438079"/>
-        <entry endPc="268438299" name="Make" stackId="1" startPc="268438088"/>
-        <entry endPc="268439211" name="rez_cmp_local_text_messageAway" stackId="5" startPc="268438690"/>
-        <entry endPc="268439211" name="rez_cmp_local_text_messageHome" stackId="3" startPc="268438690"/>
-        <entry endPc="268439211" name="rez_cmp_local_text_Hours" stackId="2" startPc="268438690"/>
-        <entry endPc="268439211" name="rez_cmp_local_text_competence" stackId="6" startPc="268438690"/>
-        <entry endPc="268439211" name="rez_cmp_local_text_Date" stackId="4" startPc="268438690"/>
-        <entry arg="true" endPc="268439212" name="dc" stackId="1" startPc="268438678"/>
+        <entry endPc="268436078" name="TrimmerGetMinute" stackId="7" startPc="268435879"/>
+        <entry endPc="268436078" name="HoursPlusUtc" stackId="6" startPc="268435879"/>
+        <entry endPc="268436078" name="PrintHours" stackId="8" startPc="268435879"/>
+        <entry endPc="268436078" name="TrimmerGetHour" stackId="5" startPc="268435879"/>
+        <entry endPc="268436078" name="TrimmerDate" stackId="4" startPc="268435879"/>
+        <entry endPc="268436078" name="DateToString" stackId="3" startPc="268435879"/>
+        <entry arg="true" endPc="268436117" name="responseCode" stackId="1" startPc="268435864"/>
+        <entry arg="true" endPc="268436117" name="data" stackId="2" startPc="268435864"/>
+        <entry endPc="268436235" name="options" stackId="2" startPc="268436122"/>
+        <entry endPc="268436235" name="responseCallback" stackId="3" startPc="268436122"/>
+        <entry arg="true" endPc="268436236" name="URL" stackId="1" startPc="268436118"/>
+        <entry endPc="268437178" name="PrintHours" stackId="17" startPc="268436241"/>
+        <entry endPc="268437178" name="TrimmerCompetence" stackId="13" startPc="268436241"/>
+        <entry endPc="268437178" name="TrimmerGetMinute" stackId="16" startPc="268436241"/>
+        <entry endPc="268437178" name="DataString" stackId="3" startPc="268436241"/>
+        <entry endPc="268437178" name="TrimmerDate" stackId="12" startPc="268436241"/>
+        <entry endPc="268437178" name="HoursPlusUtc" stackId="15" startPc="268436241"/>
+        <entry endPc="268437178" name="ReplaceFunctionAway" stackId="8" startPc="268436241"/>
+        <entry endPc="268437178" name="TrimmerGetHour" stackId="14" startPc="268436241"/>
+        <entry endPc="268437178" name="ReplaceFunctionAway4" stackId="11" startPc="268436241"/>
+        <entry endPc="268437178" name="ReplaceFunctionAway3" stackId="10" startPc="268436241"/>
+        <entry endPc="268437178" name="TrimmerAway" stackId="7" startPc="268436241"/>
+        <entry endPc="268437178" name="ReplaceFunctionAway2" stackId="9" startPc="268436241"/>
+        <entry endPc="268437178" name="ReplaceFunctionHome" stackId="5" startPc="268436241"/>
+        <entry endPc="268437178" name="ReplaceFunctionHome2" stackId="6" startPc="268436241"/>
+        <entry endPc="268437178" name="TrimmerHome" stackId="4" startPc="268436241"/>
+        <entry arg="true" endPc="268437179" name="responseCode" stackId="1" startPc="268436237"/>
+        <entry arg="true" endPc="268437179" name="data" stackId="2" startPc="268436237"/>
+        <entry endPc="268437238" name="indexFrom" stackId="6" startPc="268437187"/>
+        <entry endPc="268437238" name="indexTo" stackId="7" startPc="268437187"/>
+        <entry arg="true" endPc="268437239" name="DataString" stackId="1" startPc="268437183"/>
+        <entry arg="true" endPc="268437239" name="IndexTo" stackId="3" startPc="268437183"/>
+        <entry arg="true" endPc="268437239" name="IndexFrom" stackId="2" startPc="268437183"/>
+        <entry arg="true" endPc="268437239" name="IndexToRemove" stackId="5" startPc="268437183"/>
+        <entry arg="true" endPc="268437239" name="IndexFromRemove" stackId="4" startPc="268437183"/>
+        <entry endPc="268437338" name="index2" stackId="6" startPc="268437275"/>
+        <entry endPc="268437344" name="index" stackId="5" startPc="268437253"/>
+        <entry endPc="268437349" name="result" stackId="4" startPc="268437244"/>
+        <entry arg="true" endPc="268437350" name="oldString" stackId="2" startPc="268437240"/>
+        <entry arg="true" endPc="268437350" name="newString" stackId="3" startPc="268437240"/>
+        <entry arg="true" endPc="268437350" name="str" stackId="1" startPc="268437240"/>
+        <entry arg="true" endPc="268437426" name="hours" stackId="5" startPc="268437354"/>
+        <entry arg="true" endPc="268437426" name="date" stackId="3" startPc="268437354"/>
+        <entry arg="true" endPc="268437426" name="away" stackId="2" startPc="268437354"/>
+        <entry arg="true" endPc="268437426" name="home" stackId="1" startPc="268437354"/>
+        <entry arg="true" endPc="268437426" name="competence" stackId="4" startPc="268437354"/>
+        <entry arg="true" endPc="268437668" name="dc" stackId="1" startPc="268437427"/>
+        <entry arg="true" endPc="268437698" name="dc" stackId="1" startPc="268437674"/>
+        <entry arg="true" endPc="268437735" name="dc" stackId="1" startPc="268437731"/>
+        <entry arg="true" endPc="268437894" name="dc" stackId="1" startPc="268437741"/>
+        <entry endPc="268438078" name="i" stackId="3" startPc="268437995"/>
+        <entry endPc="268438078" name="keys" stackId="2" startPc="268437945"/>
+        <entry arg="true" endPc="268438082" name="args" stackId="1" startPc="268437900"/>
+        <entry endPc="268438198" name="view" stackId="1" startPc="268438110"/>
+        <entry endPc="268438198" name="delegate" stackId="2" startPc="268438110"/>
+        <entry arg="true" endPc="268438204" name="state" stackId="1" startPc="268438200"/>
+        <entry arg="true" endPc="268438209" name="state" stackId="1" startPc="268438205"/>
+        <entry endPc="268438425" name="Make" stackId="1" startPc="268438214"/>
+        <entry endPc="268439337" name="rez_cmp_local_text_messageAway" stackId="5" startPc="268438816"/>
+        <entry endPc="268439337" name="rez_cmp_local_text_messageHome" stackId="3" startPc="268438816"/>
+        <entry endPc="268439337" name="rez_cmp_local_text_Hours" stackId="2" startPc="268438816"/>
+        <entry endPc="268439337" name="rez_cmp_local_text_competence" stackId="6" startPc="268438816"/>
+        <entry endPc="268439337" name="rez_cmp_local_text_Date" stackId="4" startPc="268438816"/>
+        <entry arg="true" endPc="268439338" name="dc" stackId="1" startPc="268438804"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -342,15 +350,15 @@
         <dataEntry label="globals/MakeRequestModule/MakeRequestClass" offset="569" parentId="MakeRequestModule" symbolId="MakeRequestClass" type="class"/>
         <dataEntry label="globals/BarcelonaMatchesView" offset="648" parentId="globals" symbolId="BarcelonaMatchesView" type="class"/>
         <dataEntry label="globals/GlanceView" offset="767" parentId="globals" symbolId="GlanceView" type="class"/>
-        <dataEntry label="globals/MyBehaviorDelegate" offset="2500" parentId="globals" symbolId="MyBehaviorDelegate" type="class"/>
-        <dataEntry label="globals/Rez" offset="2555" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="2634" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="2673" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="2712" parentId="Menus" symbolId="MainMenu" type="class"/>
-        <dataEntry label="globals/Rez/Fonts" offset="2759" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="2790" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="2829" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="2860" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/MyBehaviorDelegate" offset="2505" parentId="globals" symbolId="MyBehaviorDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="2560" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="2639" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="2678" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="2717" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/Rez/Fonts" offset="2764" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="2795" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="2834" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="2865" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="MyMenuDelegate" startPc="268435456">
@@ -360,7 +368,7 @@
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438356" name="&lt;init&gt;" parent="MyMenuDelegate" startPc="268438302">
+        <functionEntry accessMode="protected" endPc="268438482" name="&lt;init&gt;" parent="MyMenuDelegate" startPc="268438428">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435715" name="initialize" parent="WebRequestDelegate" startPc="268435664">
@@ -376,33 +384,33 @@
         <functionEntry accessMode="private" endPc="268435863" name="&lt;globals/WebRequestDelegate/&lt;&gt;makeRequest&gt;" parent="WebRequestDelegate" startPc="268435756">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435991" name="onReceive" parent="WebRequestDelegate" startPc="268435864">
+        <functionEntry accessMode="public" endPc="268436117" name="onReceive" parent="WebRequestDelegate" startPc="268435864">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438406" name="&lt;init&gt;" parent="WebRequestDelegate" startPc="268438358">
+        <functionEntry accessMode="protected" endPc="268438532" name="&lt;init&gt;" parent="WebRequestDelegate" startPc="268438484">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436110" name="makeRequest" parent="MakeRequestClass" startPc="268435992">
+        <functionEntry accessMode="public" endPc="268436236" name="makeRequest" parent="MakeRequestClass" startPc="268436118">
             <param id="URL"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437053" name="onReceive" parent="MakeRequestClass" startPc="268436111">
+        <functionEntry accessMode="public" endPc="268437179" name="onReceive" parent="MakeRequestClass" startPc="268436237">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438482" name="&lt;init&gt;" parent="MakeRequestClass" startPc="268438452">
+        <functionEntry accessMode="protected" endPc="268438608" name="&lt;init&gt;" parent="MakeRequestClass" startPc="268438578">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437056" name="initialize" parent="MakeRequestClass" startPc="268437054">
+        <functionEntry accessMode="public" endPc="268437182" name="initialize" parent="MakeRequestClass" startPc="268437180">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438451" name="&lt;init&gt;" parent="MakeRequestModule" startPc="268438451">
+        <functionEntry accessMode="protected" endPc="268438577" name="&lt;init&gt;" parent="MakeRequestModule" startPc="268438577">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437113" name="FindAndSubstring" parent="FindAndSubstringClass" startPc="268437057">
+        <functionEntry accessMode="public" endPc="268437239" name="FindAndSubstring" parent="FindAndSubstringClass" startPc="268437183">
             <param id="DataString"/>
             <param id="IndexFrom"/>
             <param id="IndexTo"/>
@@ -410,19 +418,19 @@
             <param id="IndexToRemove"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437224" name="stringReplace" parent="FindAndSubstringClass" startPc="268437114">
+        <functionEntry accessMode="public" endPc="268437350" name="stringReplace" parent="FindAndSubstringClass" startPc="268437240">
             <param id="str"/>
             <param id="oldString"/>
             <param id="newString"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438357" name="&lt;init&gt;" parent="FindAndSubstringClass" startPc="268438357">
+        <functionEntry accessMode="protected" endPc="268438483" name="&lt;init&gt;" parent="FindAndSubstringClass" startPc="268438483">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437227" name="initialize" parent="FindAndSubstringClass" startPc="268437225">
+        <functionEntry accessMode="public" endPc="268437353" name="initialize" parent="FindAndSubstringClass" startPc="268437351">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437300" name="initialize" parent="BarcelonaMatchesView" startPc="268437228">
+        <functionEntry accessMode="public" endPc="268437426" name="initialize" parent="BarcelonaMatchesView" startPc="268437354">
             <param id="home"/>
             <param id="away"/>
             <param id="date"/>
@@ -430,105 +438,105 @@
             <param id="hours"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437542" name="onLayout" parent="BarcelonaMatchesView" startPc="268437301">
+        <functionEntry accessMode="public" endPc="268437668" name="onLayout" parent="BarcelonaMatchesView" startPc="268437427">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437547" name="onShow" parent="BarcelonaMatchesView" startPc="268437543">
+        <functionEntry accessMode="public" endPc="268437673" name="onShow" parent="BarcelonaMatchesView" startPc="268437669">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437572" name="onUpdate" parent="BarcelonaMatchesView" startPc="268437548">
+        <functionEntry accessMode="public" endPc="268437698" name="onUpdate" parent="BarcelonaMatchesView" startPc="268437674">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437577" name="onHide" parent="BarcelonaMatchesView" startPc="268437573">
+        <functionEntry accessMode="public" endPc="268437703" name="onHide" parent="BarcelonaMatchesView" startPc="268437699">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438501" name="&lt;init&gt;" parent="BarcelonaMatchesView" startPc="268438483">
+        <functionEntry accessMode="protected" endPc="268438627" name="&lt;init&gt;" parent="BarcelonaMatchesView" startPc="268438609">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438564" name="initialize" parent="MyBehaviorDelegate" startPc="268438521">
+        <functionEntry accessMode="public" endPc="268438690" name="initialize" parent="MyBehaviorDelegate" startPc="268438647">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438677" name="onMenu" parent="MyBehaviorDelegate" startPc="268438565">
+        <functionEntry accessMode="public" endPc="268438803" name="onMenu" parent="MyBehaviorDelegate" startPc="268438691">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439343" name="&lt;init&gt;" parent="MyBehaviorDelegate" startPc="268439325">
+        <functionEntry accessMode="protected" endPc="268439469" name="&lt;init&gt;" parent="MyBehaviorDelegate" startPc="268439451">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437604" name="initialize" parent="GlanceView" startPc="268437578">
+        <functionEntry accessMode="public" endPc="268437730" name="initialize" parent="GlanceView" startPc="268437704">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437609" name="onLayout" parent="GlanceView" startPc="268437605">
+        <functionEntry accessMode="public" endPc="268437735" name="onLayout" parent="GlanceView" startPc="268437731">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437614" name="onShow" parent="GlanceView" startPc="268437610">
+        <functionEntry accessMode="public" endPc="268437740" name="onShow" parent="GlanceView" startPc="268437736">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437768" name="onUpdate" parent="GlanceView" startPc="268437615">
+        <functionEntry accessMode="public" endPc="268437894" name="onUpdate" parent="GlanceView" startPc="268437741">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437773" name="onHide" parent="GlanceView" startPc="268437769">
+        <functionEntry accessMode="public" endPc="268437899" name="onHide" parent="GlanceView" startPc="268437895">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437956" name="onReceive" parent="GlanceView" startPc="268437774">
+        <functionEntry accessMode="public" endPc="268438082" name="onReceive" parent="GlanceView" startPc="268437900">
             <param id="args"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438520" name="&lt;init&gt;" parent="GlanceView" startPc="268438502">
+        <functionEntry accessMode="protected" endPc="268438646" name="&lt;init&gt;" parent="GlanceView" startPc="268438628">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437979" name="initialize" parent="BarcelonaMatchesApp" startPc="268437957">
+        <functionEntry accessMode="public" endPc="268438105" name="initialize" parent="BarcelonaMatchesApp" startPc="268438083">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438073" name="getGlanceView" parent="BarcelonaMatchesApp" startPc="268437980">
+        <functionEntry accessMode="public" endPc="268438199" name="getGlanceView" parent="BarcelonaMatchesApp" startPc="268438106">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438078" name="onStart" parent="BarcelonaMatchesApp" startPc="268438074">
+        <functionEntry accessMode="public" endPc="268438204" name="onStart" parent="BarcelonaMatchesApp" startPc="268438200">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438083" name="onStop" parent="BarcelonaMatchesApp" startPc="268438079">
+        <functionEntry accessMode="public" endPc="268438209" name="onStop" parent="BarcelonaMatchesApp" startPc="268438205">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438300" name="getInitialView" parent="BarcelonaMatchesApp" startPc="268438084">
+        <functionEntry accessMode="public" endPc="268438426" name="getInitialView" parent="BarcelonaMatchesApp" startPc="268438210">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438450" name="&lt;init&gt;" parent="BarcelonaMatchesApp" startPc="268438407">
+        <functionEntry accessMode="protected" endPc="268438576" name="&lt;init&gt;" parent="BarcelonaMatchesApp" startPc="268438533">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439368" name="&lt;init&gt;" parent="Drawables" startPc="268439368">
+        <functionEntry accessMode="protected" endPc="268439494" name="&lt;init&gt;" parent="Drawables" startPc="268439494">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439389" name="&lt;init&gt;" parent="Fonts" startPc="268439389">
+        <functionEntry accessMode="protected" endPc="268439515" name="&lt;init&gt;" parent="Fonts" startPc="268439515">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439391" name="&lt;init&gt;" parent="JsonData" startPc="268439391">
+        <functionEntry accessMode="protected" endPc="268439517" name="&lt;init&gt;" parent="JsonData" startPc="268439517">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439212" name="MainLayout" parent="Layouts" startPc="268438678">
+        <functionEntry accessMode="public" endPc="268439338" name="MainLayout" parent="Layouts" startPc="268438804">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439390" name="&lt;init&gt;" parent="Layouts" startPc="268439390">
+        <functionEntry accessMode="protected" endPc="268439516" name="&lt;init&gt;" parent="Layouts" startPc="268439516">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439324" name="initialize" parent="MainMenu" startPc="268439213">
+        <functionEntry accessMode="public" endPc="268439450" name="initialize" parent="MainMenu" startPc="268439339">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439388" name="&lt;init&gt;" parent="MainMenu" startPc="268439370">
+        <functionEntry accessMode="protected" endPc="268439514" name="&lt;init&gt;" parent="MainMenu" startPc="268439496">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439369" name="&lt;init&gt;" parent="Menus" startPc="268439369">
+        <functionEntry accessMode="protected" endPc="268439495" name="&lt;init&gt;" parent="Menus" startPc="268439495">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439392" name="&lt;init&gt;" parent="Strings" startPc="268439392">
+        <functionEntry accessMode="protected" endPc="268439518" name="&lt;init&gt;" parent="Strings" startPc="268439518">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439367" name="&lt;init&gt;" parent="Rez" startPc="268439344">
+        <functionEntry accessMode="protected" endPc="268439493" name="&lt;init&gt;" parent="Rez" startPc="268439470">
             <documentation/>
         </functionEntry>
     </functions>
