@@ -45,7 +45,7 @@ var deviceSettings = System.getDeviceSettings();
 }
     else
 {
-        return [ new BarcelonaMatchesView("Loading...","","","","") ] as Array<Views or InputDelegates> ;
+        return [ new BarcelonaMatchesView("    Loading...","","","","") ] as Array<Views or InputDelegates> ;
 
 }
       

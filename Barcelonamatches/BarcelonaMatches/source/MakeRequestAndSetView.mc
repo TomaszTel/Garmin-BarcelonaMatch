@@ -29,6 +29,8 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
 
   
   function onReceive(responseCode, data) {
+      if (responseCode == 200)
+        {
      var DataString = data.toString();
      
 if (Attention has :vibrate) {
@@ -84,8 +86,7 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
 
 
-        if (responseCode == 200)
-        {
+      
                 Date = TrimmerDate;
               
                         if(ReplaceFunctionAway3.equals("mCádiz CF"))
@@ -107,7 +108,7 @@ else
        }
        else
        {
-               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode,"","",""),"", new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+               WatchUi.switchToView(new BarcelonaMatchesView("Error:",responseCode.toString(),"Please try again later","",""), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
        }
    }

@@ -35,12 +35,22 @@ var ParsingStringClass = new FindAndSubstringClass();
     
     private function GetFromStorage() as Void {
         _notify.invoke("Executing\nPlease wait");
-
+   
      var GetDate =  Storage.getValue("DateMatch");
+    
           var GetAway =  Storage.getValue("AwayTeam");
                  var GetHome =  Storage.getValue("HomeTeam");
 
+  if(GetDate == null or GetAway == null or GetHome == null)
+      {
+            _notify.invoke("Please open app");
+
+      }
+      else
+      {
             _notify.invoke(GetHome+" - "+GetAway+"\n"+GetDate);
+
+      }
     }
 
    
