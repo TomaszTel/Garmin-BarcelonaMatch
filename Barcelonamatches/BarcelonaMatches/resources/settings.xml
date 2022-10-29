@@ -1,6 +1,6 @@
-<properties>
-		<property id="DateMatch" type="string"></property>
-		<property id="AwayTeam" type="string"></property>
-		<property id="HomeTeam" type="string"></property>
+		<settings>
+          <setting propertyKey="@Properties.ApiToken" title="Api token for: api.football-data.org" >
+            <settingConfig type="alphaNumeric" readonly="false"  required = "true"/>
+    </setting>
 
-        </properties>
+</settings>

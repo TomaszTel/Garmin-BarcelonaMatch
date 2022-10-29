@@ -31,16 +31,23 @@ var deviceSettings = System.getDeviceSettings();
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-           var Make = new MakeRequestModule.MakeRequestClass();
-
-                           
+         var Token =  Storage.getValue("ApiToken");
+             if(Token == null)
+             {
+                return [ new BarcelonaMatchesView("Please set \ntoken\n in settings ","","","","") ] as Array<Views or InputDelegates> ;
+             }
+             else
+             {
+  var Make = new MakeRequestModule.MakeRequestClass();
+           
+                       
                            
          if (deviceSettings.phoneConnected) {
     Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
             }
 
     if (!deviceSettings.phoneConnected) {
-        return [ new BarcelonaMatchesView("Connect Phone ","","Try again later","","") ] as Array<Views or InputDelegates> ;
+        return [ new BarcelonaMatchesView("Connect Phone ","","Try again","","") ] as Array<Views or InputDelegates> ;
 
 }
     else
@@ -50,6 +57,8 @@ var deviceSettings = System.getDeviceSettings();
 }
       
   
+             }
+         
         
 
     }
