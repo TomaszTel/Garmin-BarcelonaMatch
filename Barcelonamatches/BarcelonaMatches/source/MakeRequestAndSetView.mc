@@ -44,11 +44,13 @@ if (Attention has :vibrate) {
 
 
  var ReplaceHome = ["awayTeam=>{crest=>https://crests.football-data.org/",".svg,","}, matchday",", id=>","},","name=>","FC"];
+  var ReplaceHomeAgain = [","," "];
 var TrimmerHome = ParsingStringClass.FindAndSubstring(DataString,"awayTeam=>","}, matchday",0,0);
 var ReplaceFunctionHomeFunction = ParsingStringClass.stringReplace(TrimmerHome,ReplaceHome,"");
 var DeleteAllNumber = ParsingStringClass.deleteAllNumberFromString(ReplaceFunctionHomeFunction);
 var DeleteWord = ParsingStringClass.RemoveWordFromString(DeleteAllNumber,"shortName=>",", ");
-//var DeleteWordShort = ParsingStringClass.RemoveWordFromString(DeleteAllNumber,"tla=>","");
+var DeleteLastWord = ParsingStringClass.DeleteFromToEndString(DeleteWord,"tla=>");
+var ReplaceFunctionHomeFunctionAgain = ParsingStringClass.stringReplace(DeleteLastWord,ReplaceHomeAgain,"");
 
 
 var TrimmerAway = ParsingStringClass.FindAndSubstring(DataString,"homeTeam=>","group=>",93,11);
@@ -69,7 +71,7 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
             Application.Properties.setValue("DateMatch",TrimmerDate +"|"+PrintHours);
                             Application.Properties.setValue("AwayTeam",ReplaceFunctionAway);
-                                Application.Properties.setValue("HomeTeam",ReplaceFunctionHomeFunction);
+                                Application.Properties.setValue("HomeTeam",ReplaceFunctionHomeFunctionAgain);
 //System.println("Hours: "+TrimmerGetHour);
 //System.println("Minutes: "+TrimmerGetMinute);
 //System.println("Complete Hours: "+PrintHours);
@@ -82,7 +84,7 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 //System.println(TrimmerCompetence);
 //System.println("!----------------!");
 
-System.println(DataString);
+System.println(ReplaceFunctionHomeFunctionAgain);
 System.println("!----------------!");
 
 
@@ -95,7 +97,7 @@ System.println("!----------------!");
 
         Attention.vibrate(vibeData);
 
-                       WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHomeFunction,ReplaceFunctionAway,TrimmerDate,ReplaceCompetenceFunction,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+                       WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHomeFunctionAgain,ReplaceFunctionAway,TrimmerDate,ReplaceCompetenceFunction,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
 
 

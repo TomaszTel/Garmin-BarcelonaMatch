@@ -4,14 +4,21 @@
  using Toybox.WatchUi;
 (:glance)
  class FindAndSubstringClass  {
+    var ReplaceString = ["[","]",","," "];
 
+function DeleteFromToEndString(datastring,index)
+{
+var LenghtFromString = datastring.length();
+var FindInString = datastring.find(index);
+var GetDeletedString = datastring.substring(FindInString, LenghtFromString) ;
+
+return stringReplace(datastring,GetDeletedString,"");
+}
 function RemoveWordFromString(datastring,From,To)
 {
     var LenghtFromString = From.length();
     
 var result = datastring;
-
-var ReplaceString = ["[","]",","," "];
 var indexFrom = result.find(From);
 var TrimTo = result.substring(indexFrom, LenghtFromString + indexFrom);
 var DeleteFirstFrom = stringReplace(result,TrimTo,"");
