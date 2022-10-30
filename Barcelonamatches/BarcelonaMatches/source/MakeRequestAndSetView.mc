@@ -41,9 +41,14 @@ if (Attention has :vibrate) {
  
     ];
 }
- var ReplaceHome = [">","="];
-var TrimmerHome = ParsingStringClass.FindAndSubstring(DataString,"awayTeam=>","tla=>",69,2);
+
+
+ var ReplaceHome = ["awayTeam=>{crest=>https://crests.football-data.org/",".svg,","}, matchday",", id=>","},","name=>","FC"];
+var TrimmerHome = ParsingStringClass.FindAndSubstring(DataString,"awayTeam=>","}, matchday",0,0);
 var ReplaceFunctionHomeFunction = ParsingStringClass.stringReplace(TrimmerHome,ReplaceHome,"");
+var DeleteAllNumber = ParsingStringClass.deleteAllNumberFromString(ReplaceFunctionHomeFunction);
+var DeleteWord = ParsingStringClass.RemoveWordFromString(DeleteAllNumber,"shortName=>",", ");
+//var DeleteWordShort = ParsingStringClass.RemoveWordFromString(DeleteAllNumber,"tla=>","");
 
 
 var TrimmerAway = ParsingStringClass.FindAndSubstring(DataString,"homeTeam=>","group=>",93,11);
@@ -77,8 +82,8 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 //System.println(TrimmerCompetence);
 //System.println("!----------------!");
 
-//System.println(DataString);
-//System.println("!----------------!");
+System.println(DataString);
+System.println("!----------------!");
 
 
 
