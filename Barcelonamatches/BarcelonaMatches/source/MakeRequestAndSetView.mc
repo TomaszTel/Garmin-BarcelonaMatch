@@ -1,7 +1,7 @@
  
  using Toybox.WatchUi;
  using Toybox.Attention;
-        using Toybox.Application.Storage;
+        using Toybox.Application;
 
 (:glance)
 module MakeRequestModule
@@ -14,13 +14,13 @@ module MakeRequestModule
 const URL = "https://api.football-data.orghttps://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1";
 
  var ParsingStringClass = new FindAndSubstringClass();
-           var Token =  Storage.getValue("ApiToken");
+           var Token =  Application.Properties.getValue("ApiToken");
       
 
   function makeRequest(URL) {
        var options = {
          :method => Communications.HTTP_REQUEST_METHOD_GET,
-            :headers => {"X-Auth-Token" => Token}
+            :headers => {"X-Auth-Token" => "d241fae71038458d9815e08ec3f62937"}
        };
        var responseCallback = method(:onReceive);
 
@@ -41,35 +41,30 @@ if (Attention has :vibrate) {
  
     ];
 }
+ var ReplaceHome = [">","="];
 var TrimmerHome = ParsingStringClass.FindAndSubstring(DataString,"awayTeam=>","tla=>",69,2);
-var ReplaceFunctionHome = ParsingStringClass.stringReplace(TrimmerHome,">","");
-var ReplaceFunctionHome2 = ParsingStringClass.stringReplace(ReplaceFunctionHome,"=","");
+var ReplaceFunctionHomeFunction = ParsingStringClass.stringReplace(TrimmerHome,ReplaceHome,"");
+
 
 var TrimmerAway = ParsingStringClass.FindAndSubstring(DataString,"homeTeam=>","group=>",93,11);
-var ReplaceFunctionAway = ParsingStringClass.stringReplace(TrimmerAway,"e=>","");
-var ReplaceFunctionAway2 = ParsingStringClass.stringReplace(ReplaceFunctionAway,",","");
-var ReplaceFunctionAway3 = ParsingStringClass.stringReplace(ReplaceFunctionAway2,"nam","");
-var ReplaceFunctionAway4 = null;
+ var ReplaceAway = ["e=>",",","nam","FC","PLZ",">"];
+var ReplaceFunctionAway = ParsingStringClass.stringReplace(TrimmerAway,ReplaceAway,"");
 
-
-if(ReplaceFunctionAway3.equals("mCádiz CF"))
-{
-        
-         ReplaceFunctionAway4 = ParsingStringClass.stringReplace(ReplaceFunctionAway3,"m","");
-         
-
-}
 var TrimmerDate = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",9,12);
 var TrimmerCompetence = ParsingStringClass.FindAndSubstring(DataString,"competition=>",", utcDate=>",103,1);
+ var ReplaceCompetence = ["A "];
+
+       var  ReplaceCompetenceFunction = ParsingStringClass.stringReplace(TrimmerCompetence,ReplaceCompetence,"");
+
 var TrimmerGetHour = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",20,9);
 var HoursPlusUtc = TrimmerGetHour.toNumber() + 2;
 var TrimmerGetMinute = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",22,6);
 var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
 
-            Storage.setValue("DateMatch",TrimmerDate +"|"+PrintHours);
-                            Storage.setValue("AwayTeam",ReplaceFunctionAway3);
-                                Storage.setValue("HomeTeam",ReplaceFunctionHome2);
+            Application.Properties.setValue("DateMatch",TrimmerDate +"|"+PrintHours);
+                            Application.Properties.setValue("AwayTeam",ReplaceFunctionAway);
+                                Application.Properties.setValue("HomeTeam",ReplaceFunctionHomeFunction);
 //System.println("Hours: "+TrimmerGetHour);
 //System.println("Minutes: "+TrimmerGetMinute);
 //System.println("Complete Hours: "+PrintHours);
@@ -90,20 +85,14 @@ var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
       
                 Date = TrimmerDate;
               
-                        if(ReplaceFunctionAway3.equals("mCádiz CF"))
-{
-                               Attention.vibrate(vibeData);
-                                Storage.setValue("AwayTeam",ReplaceFunctionAway4);
-                          WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway4,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
-}
-else
-{
+  
+
         Attention.vibrate(vibeData);
 
-                       WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHome2,ReplaceFunctionAway3,TrimmerDate,TrimmerCompetence,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
+                       WatchUi.switchToView(new BarcelonaMatchesView(ReplaceFunctionHomeFunction,ReplaceFunctionAway,TrimmerDate,ReplaceCompetenceFunction,PrintHours), new MyBehaviorDelegate(), WatchUi.SLIDE_IMMEDIATE);
 
-}
+
 
 
        }

@@ -16,22 +16,24 @@ function stringReplace(str, oldString, newString)
 {
 var result = str;
 
+for (var i = 0; i < oldString.size(); ++i) {
+
 while (true)
 {
-var index = result.find(oldString);
+var index = result.find(oldString[i]);
 
 if (index != null)
 {
-var index2 = index+oldString.length();
+var index2 = index+oldString[i].length();
 result = result.substring(0, index) + newString + result.substring(index2, result.length());
 }
 else
 {
+break;
+}
+}
+}
 return result;
-}
-}
-
-return null;
 }
 }
  

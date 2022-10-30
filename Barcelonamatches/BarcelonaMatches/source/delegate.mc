@@ -17,12 +17,12 @@ class MyMenuDelegate extends WatchUi.MenuInputDelegate {
 }
 else if (item == :Barcelona)
 {
-         Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
+       Make.makeRequest("https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1");
         System.println( "Barcelona" );
 }
 else if (item == :AtleticoMadryt)
 {
-         Make.makeRequest("https://api.football-data.org/v4/teams/78/matches?status=SCHEDULED&limit=1");
+        Make.makeRequest("https://api.football-data.org/v4/teams/78/matches?status=SCHEDULED&limit=1");
         System.println( "AtleticoMadryt" );
 }
 }

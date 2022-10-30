@@ -31,7 +31,7 @@ var deviceSettings = System.getDeviceSettings();
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-         var Token =  Storage.getValue("ApiToken");
+         var Token =  Application.Properties.getValue("ApiToken");
              if(Token == null)
              {
                 return [ new BarcelonaMatchesView("Please set \ntoken\n in settings ","","","","") ] as Array<Views or InputDelegates> ;
