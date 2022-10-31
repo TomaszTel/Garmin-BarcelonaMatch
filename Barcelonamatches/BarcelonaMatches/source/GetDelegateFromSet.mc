@@ -3,7 +3,7 @@
 // Subject to Garmin SDK License Agreement and Wearables
 // Application Developer Agreement.
 //
-using Toybox.Application.Storage;
+ using Toybox.Application;
 import Toybox.Communications;
 import Toybox.Lang;
 import Toybox.WatchUi;
@@ -36,19 +36,19 @@ var ParsingStringClass = new FindAndSubstringClass();
     private function GetFromStorage() as Void {
         _notify.invoke("Executing\nPlease wait");
    
-     var GetDate =  Storage.getValue("DateMatch");
+     var GetDate =  Application.Properties.getValue("DateMatch");
     
-          var GetAway =  Storage.getValue("AwayTeam");
-                 var GetHome =  Storage.getValue("HomeTeam");
+          var GetGlaneView =  Application.Properties.getValue("GlaneView");
+                
 
-  if(GetDate == null or GetAway == null or GetHome == null)
+  if(GetDate == null or GetGlaneView == null)
       {
             _notify.invoke("Please open app");
 
       }
       else
       {
-            _notify.invoke(GetHome+" - "+GetAway+"\n"+GetDate);
+            _notify.invoke(GetGlaneView +"\n"+GetDate);
 
       }
     }

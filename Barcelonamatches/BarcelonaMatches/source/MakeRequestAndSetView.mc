@@ -11,7 +11,7 @@ module MakeRequestModule
      (:glance)
  class MakeRequestClass  {
 
-const URL = "https://api.football-data.orghttps://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1";
+const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&limit=1";
 
  var ParsingStringClass = new FindAndSubstringClass();
            var Token =  Application.Properties.getValue("ApiToken");
@@ -44,13 +44,13 @@ if (Attention has :vibrate) {
 }
 
 
- var ReplaceHome = [">","="];
+ var ReplaceHome = [">","=","CF","FC","PLZ"];
 var TrimmerHome = ParsingStringClass.FindAndSubstring(DataString,"awayTeam=>","tla=>",69,2);
 var ReplaceFunctionHomeFunction = ParsingStringClass.stringReplace(TrimmerHome,ReplaceHome,"");
 
 
 var TrimmerAway = ParsingStringClass.FindAndSubstring(DataString,"homeTeam=>","group=>",93,11);
- var ReplaceAway = ["e=>",",","nam","FC","PLZ",">"];
+ var ReplaceAway = ["e=>",",","nam","FC","PLZ ",">","=","CF"];
 var ReplaceFunctionAway = ParsingStringClass.stringReplace(TrimmerAway,ReplaceAway,"");
 
 var TrimmerDate = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",9,12);
@@ -60,7 +60,7 @@ var TrimmerCompetence = ParsingStringClass.FindAndSubstring(DataString,"competit
        var  ReplaceCompetenceFunction = ParsingStringClass.stringReplace(TrimmerCompetence,ReplaceCompetence,"");
 
 var TrimmerGetHour = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",20,9);
-var HoursPlusUtc = TrimmerGetHour.toNumber() + 2;
+var HoursPlusUtc = TrimmerGetHour.toNumber() + 1;
 var TrimmerGetMinute = ParsingStringClass.FindAndSubstring(DataString,"utcDate=>","season=>",22,6);
 var PrintHours = HoursPlusUtc.toString() + TrimmerGetMinute;
 
