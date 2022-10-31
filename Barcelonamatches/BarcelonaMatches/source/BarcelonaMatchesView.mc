@@ -16,6 +16,8 @@ hidden var _Hours;
                         _Competence = competence;
                             _Hours = hours;
     }
+   
+
 
 
     // Load your resources here
@@ -56,5 +58,19 @@ hidden var _Hours;
 
     }
 
+   
+}
+ class MyMenuInputDelegate extends WatchUi.MenuInputDelegate {
+    function initialize() {
+        MenuInputDelegate.initialize();
+    }
+
+    function onMenuItem(item) {
+        if (item == :item_1) {
+            System.println("Item 1");
+        } else if (item == :item_2) {
+            System.println("Item 2");
+        }
+    }
 }
 

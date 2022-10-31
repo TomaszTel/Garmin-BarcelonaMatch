@@ -333,6 +333,7 @@
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="10" object="true" symbol="BarcelonaMatchesView"/>
+<<<<<<< HEAD
 >>>>>>> main
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="29" symbol="one"/>
@@ -357,6 +358,17 @@
         <entry field="true" id="25" symbol="AppName"/>
         <entry field="true" id="14" symbol="URL"/>
 >>>>>>> main
+=======
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="29" symbol="one"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="24" method="true" symbol="MainLayout"/>
+        <entry id="9" module="true" symbol="globals/Example"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="30" symbol="two"/>
+        <entry field="true" id="25" symbol="AppName"/>
+        <entry field="true" id="14" symbol="URL"/>
+>>>>>>> main
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389594" symbol="headers"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
@@ -368,6 +380,7 @@
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <entry id="27" method="true" symbol="&lt;globals/WebRequestDelegate/&lt;&gt;GetFromStorage&gt;"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
@@ -375,16 +388,24 @@
 =======
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
+=======
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+>>>>>>> main
         <entry id="23" object="true" symbol="TEST"/>
         <entry id="28" symbol="item_2"/>
         <entry id="27" symbol="item_1"/>
         <entry id="20" module="true" symbol="Menus"/>
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="38" symbol="_Date"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="29" symbol="Date"/>
         <entry field="true" id="8389063" symbol="identifier"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <entry id="8388987" method="true" symbol="vibrate"/>
         <entry id="23" method="true" symbol="FindAndSubstring"/>
@@ -429,11 +450,32 @@
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="11" object="true" symbol="MyMenuInputDelegate"/>
 >>>>>>> main
+=======
+        <entry id="16" method="true" symbol="makeRequest"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="32" symbol="room_2"/>
+        <entry id="31" symbol="room_1"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="12" module="true" symbol="Example"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry field="true" id="18" symbol="_Away"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="26" symbol="roomId"/>
+        <entry id="15" method="true" symbol="onReceive"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="21" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="11" object="true" symbol="MyMenuInputDelegate"/>
+>>>>>>> main
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="48" symbol="RealMadryt"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <entry id="31" object="true" symbol="MakeRequestClass"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
@@ -451,6 +493,15 @@
         <entry id="19" method="true" symbol="DeleteLastWordFromString"/>
         <entry field="true" id="18" symbol="ReplaceString"/>
         <entry id="21" method="true" symbol="RemoveWordFromString"/>
+=======
+        <entry id="22" object="true" symbol="ExampleMenu"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry id="13" object="true" symbol="BarcelonaMatchesApp"/>
+        <entry field="true" id="17" symbol="_Home"/>
+        <entry id="19" module="true" symbol="Layouts"/>
+>>>>>>> main
 =======
         <entry id="22" object="true" symbol="ExampleMenu"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
@@ -598,6 +649,9 @@
         <entry endPc="268436852" name="rez_cmp_local_text_messageAway" stackId="3" startPc="268436640"/>
         <entry endPc="268436852" name="rez_cmp_local_text_messageHome" stackId="2" startPc="268436640"/>
         <entry arg="true" endPc="268436853" name="dc" stackId="1" startPc="268436628"/>
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     </localVars>
     <annotations>
@@ -606,6 +660,7 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <dataEntry label="globals/MyMenuDelegate" offset="206" parentId="globals" symbolId="MyMenuDelegate" type="class"/>
         <dataEntry label="globals/FindAndSubstringClass" offset="269" parentId="globals" symbolId="FindAndSubstringClass" type="class"/>
@@ -625,6 +680,8 @@
         <dataEntry label="globals/Rez/JsonData" offset="3264" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="3295" parentId="Rez" symbolId="Strings" type="module"/>
 =======
+=======
+>>>>>>> main
         <dataEntry label="globals/BarcelonaMatchesApp" offset="174" parentId="globals" symbolId="BarcelonaMatchesApp" type="class"/>
         <dataEntry label="globals/MyMenuInputDelegate" offset="277" parentId="globals" symbolId="MyMenuInputDelegate" type="class"/>
         <dataEntry label="globals/BarcelonaMatchesView" offset="332" parentId="globals" symbolId="BarcelonaMatchesView" type="class"/>
@@ -638,6 +695,9 @@
         <dataEntry label="globals/Rez/JsonData" offset="756" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="787" parentId="Rez" symbolId="Strings" type="module"/>
         <dataEntry label="globals/Example" offset="826" parentId="globals" symbolId="Example" type="module"/>
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     </dataEntryOffsetMappings>
     <functions>
@@ -692,11 +752,15 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436319" name="onReceive" parent="BarcelonaMatchesApp" startPc="268435870">
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <functionEntry accessMode="protected" endPc="268439363" name="&lt;init&gt;" parent="MakeRequestClass" startPc="268439299">
             <documentation/>
@@ -902,6 +966,39 @@
         <functionEntry accessMode="protected" endPc="268437188" name="&lt;init&gt;" parent="ExampleMenu" startPc="268437170">
             <documentation/>
         </functionEntry>
+=======
+        <functionEntry accessMode="public" endPc="268436474" name="makeRequest" parent="BarcelonaMatchesApp" startPc="268436320">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436627" name="onMenu" parent="BarcelonaMatchesApp" startPc="268436475">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437086" name="&lt;init&gt;" parent="BarcelonaMatchesApp" startPc="268437068">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437149" name="&lt;init&gt;" parent="Drawables" startPc="268437149">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437189" name="&lt;init&gt;" parent="Fonts" startPc="268437189">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437191" name="&lt;init&gt;" parent="JsonData" startPc="268437191">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436853" name="MainLayout" parent="Layouts" startPc="268436628">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437190" name="&lt;init&gt;" parent="Layouts" startPc="268437190">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436920" name="initialize" parent="ExampleMenu" startPc="268436854">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437188" name="&lt;init&gt;" parent="ExampleMenu" startPc="268437170">
+            <documentation/>
+        </functionEntry>
+>>>>>>> main
         <functionEntry accessMode="public" endPc="268437066" name="initialize" parent="TEST" startPc="268436921">
             <documentation/>
         </functionEntry>
@@ -915,6 +1012,9 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="protected" endPc="268437148" name="&lt;init&gt;" parent="Rez" startPc="268437125">
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
             <documentation/>
         </functionEntry>
