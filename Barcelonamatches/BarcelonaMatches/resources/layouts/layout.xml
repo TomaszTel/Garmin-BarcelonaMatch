@@ -1,7 +1,0 @@
-<layout id="MainLayout">
- <label id="Hours" x="95" y="30" font="Gfx.FONT_SMALL"  />
-  <label id="messageHome" x="40" y="60" font="Gfx.FONT_MEDIUM"  />
-  <label id="Date" x="40" y="100" font="Gfx.FONT_MEDIUM"  />
-    <label id="messageAway" x="40" y="140" font="Gfx.FONT_MEDIUM"  />
-  <label id="competence" x="40" y="180" font="Gfx.FONT_SMALL"  />
-</layout>
