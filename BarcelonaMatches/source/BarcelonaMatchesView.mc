@@ -65,12 +65,6 @@ hidden var _Hours;
         MenuInputDelegate.initialize();
     }
 
-    function onMenuItem(item) {
-        if (item == :item_1) {
-            System.println("Item 1");
-        } else if (item == :item_2) {
-            System.println("Item 2");
-        }
-    }
+
 }
 

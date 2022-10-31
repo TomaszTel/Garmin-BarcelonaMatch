@@ -20,7 +20,7 @@ const URL = "https://api.football-data.org/v4/teams/81/matches?status=SCHEDULED&
   function makeRequest(URL) {
        var options = {
          :method => Communications.HTTP_REQUEST_METHOD_GET,
-            :headers => {"X-Auth-Token" => "d241fae71038458d9815e08ec3f62937"}
+            :headers => {"X-Auth-Token" => Token}
        };
        var responseCallback = method(:onReceive);
 
