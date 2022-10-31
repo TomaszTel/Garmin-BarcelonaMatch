@@ -6,7 +6,7 @@
  class FindAndSubstringClass  {
     var ReplaceString = ["[","]",","," "];
 
-function DeleteFromToEndString(datastring,index)
+function DeleteLastWordFromString(datastring,index)
 {
 var LenghtFromString = datastring.length();
 var FindInString = datastring.find(index);
@@ -14,15 +14,28 @@ var GetDeletedString = datastring.substring(FindInString, LenghtFromString) ;
 
 return stringReplace(datastring,GetDeletedString,"");
 }
+
+function DeleteFirstWordFromString(datastring,index)
+{
+var LenghtFromString = datastring.length();
+var IndexLenght = index.length();
+var FindInString = datastring.find(index) + IndexLenght;
+var GetDeletedString = datastring.substring(LenghtFromString, FindInString) ;
+
+var again =  stringReplace(datastring,GetDeletedString,"");
+
+return stringReplace(datastring,again,"");
+}
 function RemoveWordFromString(datastring,From,To)
 {
     var LenghtFromString = From.length();
+    var LenghtToString = To.length();
     
 var result = datastring;
 var indexFrom = result.find(From);
-var TrimTo = result.substring(indexFrom, LenghtFromString + indexFrom);
+var TrimTo = result.substring(indexFrom, LenghtFromString + indexFrom );
 var DeleteFirstFrom = stringReplace(result,TrimTo,"");
-var indexTo = DeleteFirstFrom.find(To);
+var indexTo = DeleteFirstFrom.find(To) + LenghtToString;
 var CharArray =    DeleteFirstFrom.toCharArray();
 var SlinceArray = CharArray.slice(indexFrom, indexTo);
 var ArrayToString = SlinceArray.toString();
@@ -44,18 +57,19 @@ while (true)
     if(FindIndex != null)
     {
     result = stringReplace(result,i.toString(),"");
-       
-    i = 0;
     
     }
     else
     {
-        i ++;
 
          if (i == 10)
         {
            return result;
 
+        }
+        else
+        {
+        i ++;
         }
     }
 }
