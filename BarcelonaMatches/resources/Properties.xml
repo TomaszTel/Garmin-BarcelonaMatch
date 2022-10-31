@@ -1,0 +1,7 @@
+<properties>
+		<property id="DateMatch" type="string"></property>
+		<property id="AwayTeam" type="string"></property>
+		<property id="HomeTeam" type="string"></property>
+		<property id="ApiToken" type="string">Key</property>
+		<property id="GlaneView" type="string">Barcelona</property>
+        </properties>

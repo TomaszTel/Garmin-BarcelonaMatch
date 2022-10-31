@@ -1,0 +1,10 @@
+<menu id="MainMenu" title="Choose a team in LaLiga">>
+<menu-item id="Barcelona" label="Barcelona"></menu-item>
+<menu-item id="RealMadryt" label="Real Madryt"></menu-item>
+<menu-item id="AtleticoMadryt" label="Atletico Madryt "></menu-item>
+<menu-item id="Sevilla" label="Sevilla "></menu-item>
+<menu-item id="ManchesterCity" label="Manchester City "></menu-item>
+<menu-item id="ManchesterUnited" label="Manchester United "></menu-item>
+<menu-item id="Arsenal" label="Arsenal "></menu-item>
+
+</menu>

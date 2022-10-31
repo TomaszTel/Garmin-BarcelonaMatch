@@ -1,0 +1,6 @@
+		<settings>
+          <setting propertyKey="@Properties.ApiToken" title="Api token for: api.football-data.org" >
+            <settingConfig type="alphaNumeric" readonly="false"  required = "true"/>
+    </setting>
+
+</settings>
